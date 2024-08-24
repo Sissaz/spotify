@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "spotify-csv"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+duckdb = "^1.0.0"
+gdown = "^5.2.0"
+spotipy = "^2.24.0"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.2"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

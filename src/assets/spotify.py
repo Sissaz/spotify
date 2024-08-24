@@ -4,6 +4,7 @@ import pandas as pd
 import csv
 from dotenv import load_dotenv
 from gettoken import gerar_token_spotify  # Importa a função para gerar o token
+import time
 
 # Carrega as variáveis de ambiente do arquivo .env
 load_dotenv()
@@ -19,11 +20,17 @@ def ler_excel(filepath):
     data = pd.read_excel(filepath)
     return data['spotify_track_uri'].tolist()
 
-# Função para fazer a requisição ao Spotify
+# Função para fazer a requisição ao Spotify com tratamento de erros
 def requisicao_spotify(url, headers):
-    response = requests.get(url, headers=headers)
-    response.raise_for_status()
-    return response.json()
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        return response.json()
+    except requests.exceptions.HTTPError as http_err:
+        print(f"HTTP error occurred: {http_err}")
+    except requests.exceptions.RequestException as req_err:
+        print(f"Error occurred: {req_err}")
+    return None
 
 # Função para recuperar IDs dos artistas a partir dos IDs das faixas
 def recuperar_ids_artistas(track_ids, headers):
@@ -38,8 +45,11 @@ def recuperar_ids_artistas(track_ids, headers):
         url = f"{SPOTIFY_BASE_URL}tracks?ids={ids}"
 
         results = requisicao_spotify(url, headers)
-        artists_id.extend([track['artists'][0]['id'] for track in results['tracks']])
-        print(f"{index+1}/{iterador} requisições concluídas ({((index+1)*100)/iterador:.2f}% concluído)")
+        if results:
+            artists_id.extend([track['artists'][0]['id'] for track in results['tracks']])
+            print(f"{index+1}/{iterador} requisições concluídas ({((index+1)*100)/iterador:.2f}% concluído)")
+        
+        time.sleep(1)  # Pausa para evitar exceder limites da API
 
     return artists_id
 
@@ -56,14 +66,17 @@ def recuperar_artistas(artists_id, headers):
         url = f"{SPOTIFY_BASE_URL}artists?ids={ids}"
 
         results = requisicao_spotify(url, headers)
-        for resposta_artista in results['artists']:
-            artista = {
-                'id': resposta_artista['id'],
-                'nome': resposta_artista['name'],
-                'genres': resposta_artista['genres'],
-            }
-            artistas.append(artista)
-        print(f"{index+1}/{iterador} requisições concluídas ({((index+1)*100)/iterador:.2f}% concluído)")
+        if results:
+            for resposta_artista in results['artists']:
+                artista = {
+                    'id': resposta_artista['id'],
+                    'nome': resposta_artista['name'],
+                    'genres': resposta_artista['genres'],
+                }
+                artistas.append(artista)
+            print(f"{index+1}/{iterador} requisições concluídas ({((index+1)*100)/iterador:.2f}% concluído)")
+        
+        time.sleep(1)  # Pausa para evitar exceder limites da API
 
     return artistas
 
@@ -86,6 +99,10 @@ def main():
     filepath = 'TracksId.xlsx'  # Caminho para o arquivo Excel com IDs de faixas
     output_filepath = 'generos.csv'  # Caminho para o arquivo de saída CSV
 
+    if not CLIENT_ID or not CLIENT_SECRET:
+        print("Erro: CLIENT_ID ou CLIENT_SECRET não definidos.")
+        return
+
     # Gera o token usando a função importada
     SPOTIFY_TOKEN = gerar_token_spotify(CLIENT_ID, CLIENT_SECRET)
 
@@ -98,11 +115,23 @@ def main():
     # Ler IDs das faixas do Excel
     track_ids = ler_excel(filepath)
 
+    if not track_ids:
+        print("Erro: Nenhum ID de faixa encontrado no arquivo Excel.")
+        return
+
     # Recuperar IDs dos artistas
     artists_id = recuperar_ids_artistas(track_ids, headers)
 
+    if not artists_id:
+        print("Erro: Nenhum ID de artista foi recuperado.")
+        return
+
     # Recuperar informações dos artistas
     artistas = recuperar_artistas(artists_id, headers)
+
+    if not artistas:
+        print("Erro: Nenhuma informação de artista foi recuperada.")
+        return
 
     # Escrever os dados no CSV
     escrever_csv(artistas, output_filepath)

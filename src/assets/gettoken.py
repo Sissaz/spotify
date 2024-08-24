@@ -39,6 +39,7 @@ if __name__ == "__main__":
     client_id = CLIENT_ID
     client_secret = CLIENT_SECRET
 
-    token = gerar_token_spotify(client_id, client_secret)
-    
-    # Você pode agora utilizar o token gerado no seu script diretamente
+    if not client_id or not client_secret:
+        print("Erro: CLIENT_ID ou CLIENT_SECRET não definidos.")
+    else:
+        token = gerar_token_spotify(client_id, client_secret)

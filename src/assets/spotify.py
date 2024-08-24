@@ -3,13 +3,13 @@ import requests
 import pandas as pd
 import csv
 from dotenv import load_dotenv
+from gettoken import gerar_token_spotify  # Importa a função para gerar o token
 
 # Carrega as variáveis de ambiente do arquivo .env
 load_dotenv()
 
 CLIENT_ID = os.getenv('CLIENT_ID')
 CLIENT_SECRET = os.getenv('CLIENT_SECRET')
-SPOTIFY_TOKEN = os.getenv('SPOTIFY_TOKEN')
 
 SPOTIFY_BASE_URL = "https://api.spotify.com/v1/"
 VALOR_MAXIMO_SPOTIFY = 50
@@ -85,6 +85,9 @@ def escrever_csv(artistas, output_filepath):
 def main():
     filepath = 'TracksId.xlsx'  # Caminho para o arquivo Excel com IDs de faixas
     output_filepath = 'generos.csv'  # Caminho para o arquivo de saída CSV
+
+    # Gera o token usando a função importada
+    SPOTIFY_TOKEN = gerar_token_spotify(CLIENT_ID, CLIENT_SECRET)
 
     headers = {
         'Authorization': f'Bearer {SPOTIFY_TOKEN}',

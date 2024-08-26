@@ -146,6 +146,10 @@ def requisicao_spotify(url, headers, params=None):
         print(f"Error occurred: {req_err}")
     return None
 
+from datetime import datetime
+
+from datetime import datetime, timedelta
+
 # Função para recuperar as músicas recentemente ouvidas e associar ações de término
 def recuperar_musicas(headers):
     url = SPOTIFY_BASE_URL
@@ -156,14 +160,30 @@ def recuperar_musicas(headers):
 
     if results:
         for item in results['items']:
-
             # Verifica se há imagens disponíveis e captura a primeira
             album_img_url = item['track']['album']['images'][0]['url'] if item['track']['album']['images'] else None
+
+            # Extrai a data e a hora separadamente
+            data_tocada = item['played_at']
+            data, hora_completa = data_tocada.split('T')
+            hora_completa = hora_completa.replace('Z', '')  # Remove o 'Z' do final da hora
+            
+            # Converte a hora para um objeto datetime para facilitar o arredondamento
+            hora_obj = datetime.strptime(hora_completa, "%H:%M:%S.%f")
+            # Arredonda para o segundo mais próximo
+            if hora_obj.microsecond >= 500000:
+                hora_obj += timedelta(seconds=1)
+            hora_obj = hora_obj.replace(microsecond=0)
+
+            # Formata a hora de volta para string
+            hora = hora_obj.strftime("%H:%M:%S")
 
             musica = {
                 'nome': item['track']['name'],
                 'artista': item['track']['artists'][0]['name'],
-                'data_tocada': item['played_at'],
+                'data_tocada': data_tocada,
+                'data': data,
+                'hora': hora,
                 'duration_ms': item['track']['duration_ms'],
                 'spotify_track_uri': item['track']['uri'],
                 'album_img': album_img_url
@@ -172,6 +192,23 @@ def recuperar_musicas(headers):
         print(f"{len(musicas)} músicas recuperadas.")
 
     return musicas
+
+
+# Função para salvar as músicas em um arquivo CSV
+def escrever_csv(musicas, output_filepath):
+    df = pd.DataFrame(musicas)
+    
+    # Verifica se o arquivo já existe
+    if os.path.isfile(output_filepath):
+        # Se o arquivo existir, adiciona as novas linhas sem sobrescrever
+        df.to_csv(output_filepath, mode='a', header=False, index=False, encoding='utf-8')
+    else:
+        # Se o arquivo não existir, cria um novo com cabeçalho
+        df.to_csv(output_filepath, index=False, encoding='utf-8')
+    
+    print(f"Escrita do arquivo CSV finalizada em {output_filepath}")
+
+
 
 
 # Função para salvar as músicas em um arquivo CSV

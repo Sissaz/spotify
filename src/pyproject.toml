@@ -16,6 +16,7 @@ openpyxl = "^3.1.5"
 flask = "^3.0.3"
 pyautogui = "^0.9.54"
 keyboard = "^0.13.5"
+datetime = "^5.5"
 
 
 [build-system]

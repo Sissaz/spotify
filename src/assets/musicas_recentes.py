@@ -200,19 +200,6 @@ def recuperar_musicas(headers):
 
     return musicas
 
-# Função para salvar as músicas em um arquivo CSV
-def escrever_csv(musicas, output_filepath):
-    df = pd.DataFrame(musicas)
-    
-    # Verifica se o arquivo já existe
-    if os.path.isfile(output_filepath):
-        # Se o arquivo existir, adiciona as novas linhas sem sobrescrever
-        df.to_csv(output_filepath, mode='a', header=False, index=False, encoding='utf-8')
-    else:
-        # Se o arquivo não existir, cria um novo com cabeçalho
-        df.to_csv(output_filepath, index=False, encoding='utf-8')
-    
-    print(f"Escrita do arquivo CSV finalizada em {output_filepath}")
 
 
 def escrever_csv(musicas, output_filepath):
@@ -220,20 +207,23 @@ def escrever_csv(musicas, output_filepath):
     
     # Verifica se o arquivo já existe
     if os.path.isfile(output_filepath):
-        # Se o arquivo existir, adiciona as novas linhas sem sobrescrever
-        df.to_csv(output_filepath, mode='a', header=False, index=False, encoding='utf-8')
+        # Carrega o CSV existente
+        df_existente = pd.read_csv(output_filepath)
+        
+        # Concatena as novas linhas com as existentes, adicionando as novas linhas no topo
+        df_final = pd.concat([df, df_existente], ignore_index=True)
     else:
-        # Se o arquivo não existir, cria um novo com cabeçalho
-        df.to_csv(output_filepath, index=False, encoding='utf-8')
+        # Se o arquivo não existir, apenas use as novas linhas
+        df_final = df
     
-    print(f"Escrita do arquivo CSV finalizada em {output_filepath}")
-    
-    # Agora, carregue o CSV salvo, remova duplicatas e salve-o novamente
-    df_final = pd.read_csv(output_filepath)
+    # Remove duplicatas
     df_final.drop_duplicates(inplace=True)
+    
+    # Salva o DataFrame final no arquivo, com o cabeçalho
     df_final.to_csv(output_filepath, index=False, encoding='utf-8')
     
-    print(f"Linhas duplicadas removidas. Arquivo final salvo em {output_filepath}")
+    print(f"Arquivo CSV atualizado com novas linhas no topo e duplicatas removidas. Salvo em {output_filepath}")
+
 
 
 def main():

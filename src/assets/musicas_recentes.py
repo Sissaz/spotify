@@ -169,7 +169,15 @@ def recuperar_musicas(headers):
 # Função para salvar as músicas em um arquivo CSV
 def escrever_csv(musicas, output_filepath):
     df = pd.DataFrame(musicas)
-    df.to_csv(output_filepath, index=False, encoding='utf-8')
+    
+    # Verifica se o arquivo já existe
+    if os.path.isfile(output_filepath):
+        # Se o arquivo existir, adiciona as novas linhas sem sobrescrever
+        df.to_csv(output_filepath, mode='a', header=False, index=False, encoding='utf-8')
+    else:
+        # Se o arquivo não existir, cria um novo com cabeçalho
+        df.to_csv(output_filepath, index=False, encoding='utf-8')
+    
     print(f"Escrita do arquivo CSV finalizada em {output_filepath}")
 
 def main():

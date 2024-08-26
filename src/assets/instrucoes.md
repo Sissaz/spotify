@@ -68,7 +68,7 @@ If needed and not created yet, create the project and name it as you like.
 <br>
 • poetry init
 
-Initiates a new project with Poetry, generating the pyproject.toml file. During the process, you'll be prompted to provide some basic project information in the terminal. Simply answer the prompts and continue.
+Initiates a new project with Poetry, generating the pyproject.toml file. During the process, you'll be prompted to provide some basic project information in the terminal. Simply answer the prompts and continue. *Ensure that the project name matches the Python script name.
 
 <br>
 • poetry install

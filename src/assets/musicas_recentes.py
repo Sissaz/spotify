@@ -8,6 +8,7 @@ import sys
 from flask import Flask, request, redirect
 from dotenv import load_dotenv
 from werkzeug.serving import make_server
+from datetime import datetime, timedelta
 
 # Carrega as variáveis de ambiente do arquivo .env
 load_dotenv()
@@ -146,11 +147,7 @@ def requisicao_spotify(url, headers, params=None):
         print(f"Error occurred: {req_err}")
     return None
 
-from datetime import datetime
 
-from datetime import datetime, timedelta
-
-# Função para recuperar as músicas recentemente ouvidas e associar ações de término
 def recuperar_musicas(headers):
     url = SPOTIFY_BASE_URL
     params = {'limit': VALOR_MAXIMO_SPOTIFY}
@@ -165,26 +162,36 @@ def recuperar_musicas(headers):
 
             # Extrai a data e a hora separadamente
             data_tocada = item['played_at']
-            data, hora_completa = data_tocada.split('T')
-            hora_completa = hora_completa.replace('Z', '')  # Remove o 'Z' do final da hora
-            
-            # Converte a hora para um objeto datetime para facilitar o arredondamento
-            hora_obj = datetime.strptime(hora_completa, "%H:%M:%S.%f")
-            # Arredonda para o segundo mais próximo
-            if hora_obj.microsecond >= 500000:
-                hora_obj += timedelta(seconds=1)
-            hora_obj = hora_obj.replace(microsecond=0)
 
-            # Formata a hora de volta para string
-            hora = hora_obj.strftime("%H:%M:%S")
+            # Converte a string de data e hora para um objeto datetime
+            dt_utc = datetime.strptime(data_tocada, "%Y-%m-%dT%H:%M:%S.%fZ")
+            
+            # Subtrai 3 horas para ajustar para GMT-3
+            dt_gmt3 = dt_utc - timedelta(hours=3)
+            
+            # Separa a data e a hora
+            data = dt_gmt3.strftime("%Y-%m-%d")
+            hora = dt_gmt3.strftime("%H:%M:%S")
+
+            # Converte a duração de milissegundos para minutos e segundos
+            duration_ms = item['track']['duration_ms']
+            minutes = duration_ms // 60000  # divide por 60.000 para obter os minutos
+            seconds = (duration_ms % 60000) // 1000  # o restante é convertido em segundos
+            duration_min_sec = f"{minutes:02}:{seconds:02}"  # formata em MM:SS
+
+            # Calcula a hora de término somando a hora inicial com a duração
+            end_time = dt_gmt3 - timedelta(minutes=minutes, seconds=seconds)
+            hora_inicio = end_time.strftime("%H:%M:%S")
 
             musica = {
                 'nome': item['track']['name'],
                 'artista': item['track']['artists'][0]['name'],
-                'data_tocada': data_tocada,
+                'data_completa': data_tocada,
                 'data': data,
-                'hora': hora,
-                'duration_ms': item['track']['duration_ms'],
+                'duracao_ms': duration_ms,
+                'duracao_min': duration_min_sec,
+                'hora_inicio': hora_inicio,
+                'hora_fim': hora,
                 'spotify_track_uri': item['track']['uri'],
                 'album_img': album_img_url
             }
@@ -193,7 +200,6 @@ def recuperar_musicas(headers):
 
     return musicas
 
-
 # Função para salvar as músicas em um arquivo CSV
 def escrever_csv(musicas, output_filepath):
     df = pd.DataFrame(musicas)
@@ -209,9 +215,6 @@ def escrever_csv(musicas, output_filepath):
     print(f"Escrita do arquivo CSV finalizada em {output_filepath}")
 
 
-
-
-# Função para salvar as músicas em um arquivo CSV
 def escrever_csv(musicas, output_filepath):
     df = pd.DataFrame(musicas)
     
@@ -224,6 +227,14 @@ def escrever_csv(musicas, output_filepath):
         df.to_csv(output_filepath, index=False, encoding='utf-8')
     
     print(f"Escrita do arquivo CSV finalizada em {output_filepath}")
+    
+    # Agora, carregue o CSV salvo, remova duplicatas e salve-o novamente
+    df_final = pd.read_csv(output_filepath)
+    df_final.drop_duplicates(inplace=True)
+    df_final.to_csv(output_filepath, index=False, encoding='utf-8')
+    
+    print(f"Linhas duplicadas removidas. Arquivo final salvo em {output_filepath}")
+
 
 def main():
     global REFRESH_TOKEN  # Declara que usaremos a variável global REFRESH_TOKEN

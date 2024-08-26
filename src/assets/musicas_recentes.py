@@ -146,7 +146,7 @@ def requisicao_spotify(url, headers, params=None):
         print(f"Error occurred: {req_err}")
     return None
 
-# Função para recuperar as músicas recentemente ouvidas
+# Função para recuperar as músicas recentemente ouvidas e associar ações de término
 def recuperar_musicas(headers):
     url = SPOTIFY_BASE_URL
     params = {'limit': VALOR_MAXIMO_SPOTIFY}
@@ -156,15 +156,23 @@ def recuperar_musicas(headers):
 
     if results:
         for item in results['items']:
+
+            # Verifica se há imagens disponíveis e captura a primeira
+            album_img_url = item['track']['album']['images'][0]['url'] if item['track']['album']['images'] else None
+
             musica = {
                 'nome': item['track']['name'],
                 'artista': item['track']['artists'][0]['name'],
-                'data_tocada': item['played_at']
+                'data_tocada': item['played_at'],
+                'duration_ms': item['track']['duration_ms'],
+                'spotify_track_uri': item['track']['uri'],
+                'album_img': album_img_url
             }
             musicas.append(musica)
         print(f"{len(musicas)} músicas recuperadas.")
 
     return musicas
+
 
 # Função para salvar as músicas em um arquivo CSV
 def escrever_csv(musicas, output_filepath):

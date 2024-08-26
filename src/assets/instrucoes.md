@@ -108,6 +108,13 @@ Installs the project dependencies without installing the root package.
 Installs the necessary libraries required by this code using Poetry.
 <br><br>
 
+### Running the Script
+
+• poetry run python musicas_recentes.py
+
+This command executes the script with Poetry.
+<br><br>
+
 ### Installing Other Python Libraries with Poetry
 
 • poetry add streamlit

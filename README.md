@@ -1,5 +1,12 @@
-Faça um app no Spotify for Developers:
+Faça um App no Spotify for Developers:
 https://developer.spotify.com/dashboard/create
+<div align="center"> 
+  <a href="https://developer.spotify.com/dashboard/create">
+    <img style="width:100%; max-width:1200px;" src="https://github.com/Sissaz/spotify/blob/master/src/assets/images/Client%20ID%20and%20Client%20Secret.png?raw=true" />
+  </a>
+
+Entre na configuração do App e copie o Client_ID e Client_Secret
+
 <div align="center"> 
   <a href="https://developer.spotify.com/dashboard/create">
     <img style="width:100%; max-width:1200px;" src="https://github.com/Sissaz/spotify/blob/master/src/assets/images/Create%20App.png?raw=true" />

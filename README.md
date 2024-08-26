@@ -1,5 +1,4 @@
-   ```bash
-   git clone https://github.com/Sissaz/spotify
+De um git clone
 
 <br>
 Faça um App no Spotify for Developers:

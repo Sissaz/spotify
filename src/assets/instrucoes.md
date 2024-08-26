@@ -66,14 +66,14 @@ Configures Poetry to create virtual environments within the project.
 If needed and not created yet, create the project and name it as you like.
 
 <br>
-• poetry install
-
-After creating the project folder, open Git Bash in VSCode from within this folder. Then, run the command above to install the project dependencies specified in the pyproject.toml file
-
-<br>
 • poetry init
 
 Starts a new project with Poetry, creating the pyproject.toml file.
+
+<br>
+• poetry install
+
+After creating the project folder, open Git Bash in VSCode from within this folder. Then, run the command above to install the project dependencies specified in the pyproject.toml file
 
 <br>
 • poetry shell

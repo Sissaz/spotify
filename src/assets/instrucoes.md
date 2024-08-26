@@ -46,9 +46,9 @@ Installs Python version 3.12.1 using pyenv. This allows you to manage multiple P
 Sets Python 3.12.1 as the version for the current directory.
 
 <br>
-Install Poetry using pip.
-
 • pip install poetry
+
+Install Poetry using pip.
 
 <br>
 • poetry --version

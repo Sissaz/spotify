@@ -7,7 +7,7 @@ I ran the following commands using Python in Visual Studio Code.
 https://www.python.org/
 
 https://code.visualstudio.com/
-
+<br><br>
 
 ### In PowerShell
 

@@ -119,7 +119,7 @@ Installs the necessary libraries required by this code using Poetry.
 <br><br>
 
 ### Installing Other Python Libraries with Poetry
-<br>
+
 • poetry add streamlit
 
 Adds the Streamlit library as a project dependency.

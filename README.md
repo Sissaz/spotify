@@ -1,4 +1,5 @@
-De um git clone
+   ```bash
+   git clone https://github.com/Sissaz/spotify
 
 <br>
 Faça um App no Spotify for Developers:
@@ -23,6 +24,15 @@ CLIENT_SECRET=SEU_CLIENT_SECRET
 REDIRECT_URI=http://localhost:8888/callback
 REFRESH_TOKEN=
 
+<br>
+Execute os seguintes comandos no PowerShell:
+cd src
+cd assets
+poetry install
+poetry shell
+poetry run python musicas_recentes.py
+
+<br>
  #### [Python Code](https://github.com/Sissaz/spotify/blob/master/src/assets/musicas_recentes.py): ETL Pipeline Code
 <br>
 <div align="center"> 

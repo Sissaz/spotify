@@ -73,7 +73,7 @@ Initiates a new project with Poetry, generating the pyproject.toml file. During 
 <br>
 • poetry install
 
-After creating the project folder, open Git Bash in VSCode from within this folder. Then, run the command above to install the project dependencies specified in the pyproject.toml file
+After creating the project folder, open Git Bash in VSCode from within this folder. Then, run the command above to install the project dependencies specified in the pyproject.toml file.
 
 <br>
 • poetry shell

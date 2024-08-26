@@ -13,6 +13,9 @@ spotipy = "^2.24.0"
 python-dotenv = "^1.0.1"
 pandas = "^2.2.2"
 openpyxl = "^3.1.5"
+flask = "^3.0.3"
+pyautogui = "^0.9.54"
+keyboard = "^0.13.5"
 
 
 [build-system]

@@ -46,17 +46,7 @@ Installs Python version 3.12.1 using pyenv. This allows you to manage multiple P
 Sets Python 3.12.1 as the version for the current directory.
 
 <br>
-• curl -sSL https://install.python-poetry.org | python3 -
-
-Installs Poetry using the official script.
-
-<br>
-Verify the Poetry installation.
-
-• python3 -m poetry --version
-
-<br>
-If needed, install Poetry using pip.
+Install Poetry using pip.
 
 • pip install poetry
 
@@ -71,9 +61,9 @@ Displays the installed version of Poetry.
 Configures Poetry to create virtual environments within the project.
 
 <br>
-• poetry new dados_csv 
+• poetry new exemplo_exemplo_x
 
-Create the project and name it as you like.
+If needed and not created yet, create the project and name it as you like.
 
 <br>
 • poetry install

@@ -1,3 +1,6 @@
+## Spotify API Interaction and Data Collection Script
+🎵 Download your recently played Spotify tracks data
+
 ### Cloning the Repository
 
 ```bash

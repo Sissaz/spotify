@@ -56,6 +56,6 @@ poetry run python musicas_recentes.py
 
 <div align="center"> 
   <a href="https://github.com/Sissaz/spotify/blob/master/src/assets/musicas_recentes.py">
-    <img style="width:100%; max-width:1200px;" src="https://raw.githubusercontent.com/Sissaz/spotify/8e170a253e83121c6e60021421027175afa16dff/src/assets/images/diagrama.svg" />
+    <img style="width:100%; max-width:1200px;" src="https://raw.githubusercontent.com/Sissaz/spotify/390f1fe21b106977bcecb96694a92c0497b0a1d4/src/assets/images/diagrama.svg" />
   </a>
 </div>

@@ -4,6 +4,7 @@ on:
   schedule:
     # Agenda o script para rodar diariamente às 21:50 no horário do Brasil (00:50 UTC)
     - cron: "50 0 * * *"
+  workflow_dispatch:
 
 jobs:
   run-script:
@@ -26,21 +27,27 @@ jobs:
     - name: Install dependencies
       run: |
         poetry install
+
+    - name: Change directory to src/assets
+      run: |
+        cd src
+        cd assets
       
-    - name: Run Spotify Script
+    - name: Activate Poetry shell and run Spotify Script
       env:
         CLIENT_ID: ${{ secrets.CLIENT_ID }}
         CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
         REDIRECT_URI: ${{ secrets.REDIRECT_URI }}
         REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
       run: |
+        poetry shell
         poetry run python musicas_recentes.py
     
     - name: Commit and push changes
       run: |
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git add musicas_ouvidas.csv
+        git add ../../musicas_ouvidas.csv
         git commit -m "Update musicas_ouvidas.csv"
         git push
       env:

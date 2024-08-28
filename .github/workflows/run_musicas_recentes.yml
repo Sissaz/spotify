@@ -17,16 +17,17 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.10'
+        python-version: '3.12'  # Atualizando para a versão 3.12, conforme necessário pelo projeto
         
     - name: Install Poetry
       run: |
         pip install poetry
         export PATH="$HOME/.local/bin:$PATH"
-
-    - name: Install dependencies in src directory
+      
+    - name: Use Python 3.12.1 with Poetry
       working-directory: ./src
       run: |
+        poetry env use 3.12.1
         poetry install
 
     - name: Run Spotify Script

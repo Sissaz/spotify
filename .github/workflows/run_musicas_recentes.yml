@@ -24,6 +24,10 @@ jobs:
         pip install poetry
         export PATH="$HOME/.local/bin:$PATH"
 
+    - name: Install dependencies
+      run: |
+        poetry install
+
     - name: Change directory to src/assets
       run: |
         cd src
@@ -32,9 +36,6 @@ jobs:
       run: |
         cd assets
 
-    - name: Install dependencies
-      run: |
-        poetry install
 
 
     - name: Activate Poetry shell and run Spotify Script
@@ -44,7 +45,6 @@ jobs:
         REDIRECT_URI: ${{ secrets.REDIRECT_URI }}
         REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
       run: |
-        poetry shell
         poetry run python musicas_recentes.py
     
     - name: Commit and push changes

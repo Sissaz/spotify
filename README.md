@@ -32,6 +32,10 @@ REFRESH_TOKEN=
 
 ### Run the following commands in PowerShell
 ```bash
+pip install poetry
+```
+
+```bash
 cd src
 ```
 

@@ -3,7 +3,7 @@ name: Run Spotify Script
 on:
   schedule:
     # Agenda o script para rodar diariamente às 21:30 no horário do Brasil (00:30 UTC)
-    - cron: "35 0 * * *"
+    - cron: "40 0 * * *"
 
 jobs:
   run-script:
@@ -35,3 +35,13 @@ jobs:
         REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
       run: |
         poetry run python musicas_recentes.py
+    
+    - name: Commit and push changes
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git add musicas_ouvidas.csv
+        git commit -m "Update musicas_ouvidas.csv"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

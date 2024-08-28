@@ -3,7 +3,7 @@ name: Run Spotify Script
 on:
   schedule:
     # Agenda o script para rodar diariamente às 21:30 no horário do Brasil (00:30 UTC)
-    - cron: "40 0 * * *"
+    - cron: "35 0 * * *"
 
 jobs:
   run-script:

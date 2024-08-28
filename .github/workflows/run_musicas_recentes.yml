@@ -24,29 +24,23 @@ jobs:
         pip install poetry
         export PATH="$HOME/.local/bin:$PATH"
 
-    - name: Change directory to src/assets
-      run: |
-        cd src
-  
-    - name: Install dependencies
+    - name: Install dependencies in src directory
+      working-directory: ./src
       run: |
         poetry install
 
-    - name: Change directory to src/assets
-      run: |
-        cd assets
-
-
-    - name: Activate Poetry shell and run Spotify Script
+    - name: Run Spotify Script
       env:
         CLIENT_ID: ${{ secrets.CLIENT_ID }}
         CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
         REDIRECT_URI: ${{ secrets.REDIRECT_URI }}
         REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
+      working-directory: ./src/assets
       run: |
         poetry run python musicas_recentes.py
     
     - name: Commit and push changes
+      working-directory: ./src/assets
       run: |
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"

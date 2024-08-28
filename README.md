@@ -22,7 +22,7 @@ https://developer.spotify.com/dashboard/create
     <img style="width:100%; max-width:1200px;" src="https://github.com/Sissaz/spotify/blob/master/src/assets/images/Client%20ID%20and%20Client%20Secret.png?raw=true" />
   </a></div>
 
-### Create a new .env file in the cloned project folder with all the lines below, replacing only CLIENT_ID and CLIENT_SECRET
+### Create a new .env file in the cloned project 'src' folder with all the lines below, replacing only CLIENT_ID and CLIENT_SECRET
 ```bash
 CLIENT_ID=YOUR_CLIENT_ID
 CLIENT_SECRET=YOUR_CLIENT_SECRET

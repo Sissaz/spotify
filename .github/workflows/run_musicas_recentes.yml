@@ -23,16 +23,17 @@ jobs:
       run: |
         pip install poetry
         export PATH="$HOME/.local/bin:$PATH"
-        
-    - name: Install dependencies
-      run: |
-        poetry install
 
     - name: Change directory to src/assets
       run: |
         cd src
         cd assets
-      
+
+    - name: Install dependencies
+      run: |
+        poetry install
+
+
     - name: Activate Poetry shell and run Spotify Script
       env:
         CLIENT_ID: ${{ secrets.CLIENT_ID }}

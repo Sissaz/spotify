@@ -38,7 +38,7 @@ jobs:
         REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
       working-directory: ./src/assets
       run: |
-        poetry run python musicas_recentes.py
+        poetry run python musicas_recentes_actions.py
     
     - name: Commit and push changes
       working-directory: ./src/assets

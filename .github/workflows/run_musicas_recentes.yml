@@ -27,7 +27,10 @@ jobs:
     - name: Change directory to src/assets
       run: |
         cd src
-        cd assets
+
+    - name: Change directory to src/assets
+      run: |
+          cd assets
 
     - name: Install dependencies
       run: |

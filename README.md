@@ -40,12 +40,17 @@ cd src
 ```
 
 ```bash
-cd assets
+poetry env use 3.12.1
 ```
 
 ```bash
 poetry install
 ```
+
+```bash
+cd assets
+```
+
 
 ```bash
 poetry shell

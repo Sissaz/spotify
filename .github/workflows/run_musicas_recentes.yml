@@ -30,7 +30,7 @@ jobs:
 
     - name: Change directory to src/assets
       run: |
-          cd assets
+        cd assets
 
     - name: Install dependencies
       run: |

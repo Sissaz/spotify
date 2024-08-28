@@ -28,7 +28,7 @@ jobs:
       working-directory: ./src
       run: |
         poetry env use 3.12.1
-        poetry install
+        poetry install --no-root
 
     - name: Run Spotify Script
       env:

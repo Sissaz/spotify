@@ -44,7 +44,7 @@ jobs:
       run: |
         if [ -f "musicas_ouvidas.csv" ]; then
           echo "CSV file exists."
-        else:
+        else
           echo "CSV file does not exist."
           exit 1
         fi

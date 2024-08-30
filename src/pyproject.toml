@@ -17,6 +17,8 @@ flask = "^3.0.3"
 pyautogui = "^0.9.54"
 keyboard = "^0.13.5"
 datetime = "^5.5"
+supabase = "^2.7.3"
+psycopg2-binary = "^2.9.9"
 
 
 [build-system]

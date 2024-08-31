@@ -8,6 +8,7 @@ import sys
 from flask import Flask, request, redirect
 from werkzeug.serving import make_server
 from datetime import datetime, timedelta
+from tqdm import tqdm
 
 # Carrega os valores do CLIENT_ID, CLIENT_SECRET, e REFRESH_TOKEN a partir das variáveis de ambiente
 CLIENT_ID = os.getenv('CLIENT_ID')
@@ -173,47 +174,64 @@ def recuperar_musicas(headers):
     musicas = []
 
     if results:
-        for item in results['items']:
-            # Verifica se há imagens disponíveis e captura a primeira
-            album_img_url = item['track']['album']['images'][0]['url'] if item['track']['album']['images'] else None
+        # Inicializa a barra de progresso
+        with tqdm(total=len(results['items']), desc="Recuperando músicas", ncols=100) as pbar:
+            for item in results['items']:
+                # Verifica se há imagens disponíveis e captura a primeira
+                album_img_url = item['track']['album']['images'][0]['url'] if item['track']['album']['images'] else None
 
-            # Extrai a data e a hora da música tocada
-            data_tocada = item['played_at']
+                # Extrai a data e a hora da música tocada
+                data_tocada = item['played_at']
 
-            # Converte a string de data e hora para um objeto datetime
-            dt_utc = datetime.strptime(data_tocada, "%Y-%m-%dT%H:%M:%S.%fZ")
-            
-            # Subtrai 3 horas para ajustar para GMT-3
-            dt_gmt3 = dt_utc - timedelta(hours=3)
-            
-            # Separa a data e a hora
-            data = dt_gmt3.strftime("%Y-%m-%d")
-            hora = dt_gmt3.strftime("%H:%M:%S")
+                # Converte a string de data e hora para um objeto datetime
+                dt_utc = datetime.strptime(data_tocada, "%Y-%m-%dT%H:%M:%S.%fZ")
 
-            # Converte a duração de milissegundos para minutos e segundos
-            duration_ms = item['track']['duration_ms']
-            minutes = duration_ms // 60000  # divide por 60.000 para obter os minutos
-            seconds = (duration_ms % 60000) // 1000  # o restante é convertido em segundos
-            duration_min_sec = f"{minutes:02}:{seconds:02}"  # formata em MM:SS
+                # Subtrai 3 horas para ajustar para GMT-3
+                dt_gmt3 = dt_utc - timedelta(hours=3)
 
-            # Calcula a hora de término somando a hora inicial com a duração
-            end_time = dt_gmt3 - timedelta(minutes=minutes, seconds=seconds)
-            hora_inicio = end_time.strftime("%H:%M:%S")
+                # Separa a data e a hora
+                data = dt_gmt3.strftime("%Y-%m-%d")
+                hora = dt_gmt3.strftime("%H:%M:%S")
 
-            # Cria um dicionário com os dados da música
-            musica = {
-                'nome': item['track']['name'],
-                'artista': item['track']['artists'][0]['name'],
-                'data_completa': data_tocada,
-                'data': data,
-                'duracao_ms': duration_ms,
-                'duracao_min': duration_min_sec,
-                'hora_inicio': hora_inicio,
-                'hora_fim': hora,
-                'spotify_track_uri': item['track']['uri'],
-                'album_img': album_img_url
-            }
-            musicas.append(musica)  # Adiciona a música à lista
+                # Converte a duração de milissegundos para minutos e segundos
+                duration_ms = item['track']['duration_ms']
+                minutes = duration_ms // 60000  # divide por 60.000 para obter os minutos
+                seconds = (duration_ms % 60000) // 1000  # o restante é convertido em segundos
+                duration_min_sec = f"{minutes:02}:{seconds:02}"  # formata em MM:SS
+
+                # Calcula a hora de término somando a hora inicial com a duração
+                end_time = dt_gmt3 - timedelta(minutes=minutes, seconds=seconds)
+                hora_inicio = end_time.strftime("%H:%M:%S")
+
+                # Extrai o id do artista a partir do URI
+                artist_id = item['track']['artists'][0]['uri'].split(':')[-1]
+
+                # URL para obter os detalhes do artista
+                artist_url = f"https://api.spotify.com/v1/artists/{artist_id}"
+                artist_info = requisicao_spotify(artist_url, headers)
+
+                # Extrai os gêneros do artista
+                genres = artist_info['genres'] if artist_info and 'genres' in artist_info else []
+
+                # Cria um dicionário com os dados da música
+                musica = {
+                    'nome': item['track']['name'],
+                    'artista': item['track']['artists'][0]['name'],
+                    'artist_id': artist_id,  # Adiciona o id do artista
+                    'generos': ', '.join(genres),  # Adiciona os gêneros do artista
+                    'data_completa': data_tocada,
+                    'data': data,
+                    'duracao_ms': duration_ms,
+                    'duracao_min': duration_min_sec,
+                    'hora_inicio': hora_inicio,
+                    'hora_fim': hora,
+                    'spotify_track_uri': item['track']['uri'],
+                    'album_img': album_img_url
+                }
+                musicas.append(musica)  # Adiciona a música à lista
+                
+                pbar.update(1)  # Atualiza a barra de progresso
+                
         print(f"{len(musicas)} músicas recuperadas.")
 
     return musicas

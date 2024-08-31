@@ -197,7 +197,9 @@ def recuperar_musicas(headers):
                 duration_ms = item['track']['duration_ms']
                 minutes = duration_ms // 60000  # divide por 60.000 para obter os minutos
                 seconds = (duration_ms % 60000) // 1000  # o restante é convertido em segundos
-                duration_min_sec = f"{minutes:02}:{seconds:02}"  # formata em MM:SS
+                # Formata a duração como "00:MM:SS" para evitar o erro de interpretação como horas
+                duration_min_sec = f"00:{minutes:02}:{seconds:02}"  # formata em 00:MM:SS
+
 
                 # Calcula a hora de término somando a hora inicial com a duração
                 end_time = dt_gmt3 - timedelta(minutes=minutes, seconds=seconds)

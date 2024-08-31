@@ -28,6 +28,8 @@ create_table_query = '''
 CREATE TABLE IF NOT EXISTS musicas_ouvidas (
     nome TEXT,
     artista TEXT,
+    artist_id TEXT,
+    generos TEXT,
     data_completa TIMESTAMP,
     data DATE,
     duracao_ms INTEGER,
@@ -48,11 +50,13 @@ print("Inserindo os dados do CSV na tabela...")
 for index, row in tqdm(df.iterrows(), total=len(df)):
     try:
         insert_query = sql.SQL("""
-            INSERT INTO musicas_ouvidas (nome, artista, data_completa, data, duracao_ms, duracao_min, hora_inicio, hora_fim, spotify_track_uri, album_img)
-            VALUES ({}, {}, {}, {}, {}, {}, {}, {}, {}, {})
+            INSERT INTO musicas_ouvidas (nome, artista, artist_id, generos, data_completa, data, duracao_ms, duracao_min, hora_inicio, hora_fim, spotify_track_uri, album_img)
+            VALUES ({}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {})
         """).format(
             sql.Literal(row['nome']),
             sql.Literal(row['artista']),
+            sql.Literal(row['artist_id']),
+            sql.Literal(row['generos']),
             sql.Literal(row['data_completa']),
             sql.Literal(row['data']),
             sql.Literal(row['duracao_ms']),
@@ -65,6 +69,9 @@ for index, row in tqdm(df.iterrows(), total=len(df)):
         cursor.execute(insert_query)
     except psycopg2.IntegrityError:
         connection.rollback()  # Ignora a inserção e continua com os outros registros
+    except Exception as e:
+        print(f"Erro ao inserir linha {index}: {e}")
+        connection.rollback()
 
 connection.commit()
 print("Dados inseridos com sucesso!")

@@ -1,6 +1,8 @@
 ## Spotify API Interaction and Data Collection Script
 🎵 Download your recently played Spotify tracks data
 
+This Python project automates the process of retrieving and storing recently played tracks from Spotify. It integrates with the Spotify API to fetch data, including track details, artist information, and playback timestamps. The data is then cleaned, processed, and saved into a CSV file, ensuring that no duplicate entries are stored. Additionally, the project includes a feature to insert the collected data into a PostgreSQL database, facilitating further analysis or integration with other systems. This solution is ideal for music enthusiasts and developers looking to maintain a personal log of their Spotify listening history or integrate it into larger applications.
+
 ### Cloning the Repository
 
 ```bash
@@ -62,6 +64,7 @@ poetry run python musicas_recentes.py
 
 
  #### [Python Code](https://github.com/Sissaz/spotify/blob/master/src/assets/musicas_recentes.py): ETL Pipeline Code
+
 
 <div align="center"> 
   <a href="https://github.com/Sissaz/spotify/blob/master/src/assets/musicas_recentes.py">

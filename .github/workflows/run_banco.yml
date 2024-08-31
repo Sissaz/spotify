@@ -40,7 +40,7 @@ jobs:
         DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
       working-directory: ./src/assets
       run: |
-        poetry run python banco_action.py
+        poetry run python banco_actions.py
     
     - name: Verify if CSV was created
       working-directory: ./src/assets

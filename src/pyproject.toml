@@ -19,6 +19,9 @@ keyboard = "^0.13.5"
 datetime = "^5.5"
 supabase = "^2.7.3"
 psycopg2-binary = "^2.9.9"
+psycopg2 = "^2.9.9"
+requests = "^2.32.3"
+tqdm = "^4.66.5"
 
 
 [build-system]

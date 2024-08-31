@@ -1,0 +1,74 @@
+name: Run Banco Script
+
+on:
+  schedule:
+    - cron: "0 2 * * *"  # Executa todos os dias às 02:00 UTC
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out the repository
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+        
+    - name: Install Poetry
+      run: |
+        pip install poetry
+        export PATH="$HOME/.local/bin:$PATH"
+      
+    - name: Use Python 3.12.1 with Poetry
+      working-directory: ./src
+      run: |
+        poetry env use 3.12.1
+        poetry install --no-root
+
+    - name: Run Banco Script
+      env:
+        CLIENT_ID: ${{ secrets.CLIENT_ID }}
+        CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+        REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
+        DB_HOST: ${{ secrets.DB_HOST }}
+        DB_NAME: ${{ secrets.DB_NAME }}
+        DB_USER: ${{ secrets.DB_USER }}
+        DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+      working-directory: ./src/assets
+      run: |
+        poetry run python banco_action.py
+    
+    - name: Verify if CSV was created
+      working-directory: ./src/assets
+      run: |
+        if [ -f "musicas_ouvidas.csv" ]; then
+          echo "CSV file exists."
+        else
+          echo "CSV file does not exist."
+          exit 1
+        fi
+
+    - name: Commit and push changes if CSV exists and has modifications
+      working-directory: ./src/assets
+      run: |
+        if [ -f "musicas_ouvidas.csv" ]; then
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add musicas_ouvidas.csv
+          
+          # Verifica se há alterações antes de tentar o commit
+          if git diff --cached --exit-code; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update musicas_ouvidas.csv"
+            git push
+          fi
+        else
+          echo "CSV file not found, skipping commit."
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

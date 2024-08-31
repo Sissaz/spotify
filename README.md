@@ -65,6 +65,26 @@ poetry run python musicas_recentes.py
 
  #### [Python Code](https://github.com/Sissaz/spotify/blob/master/src/assets/musicas_recentes.py): ETL Pipeline Code
 
+### Database Connection
+
+This example demonstrates connecting to a PostgreSQL database using DBeaver. The connection was made possible through a free PostgreSQL instance provided by Render, which offers 1GB of capacity and is available for up to one month, allowing seamless interaction with the database.
+
+<div align="center"> 
+  <a href="https://render.com/">
+    <img style="width:100%; max-width:1200px;" src="https://raw.githubusercontent.com/Sissaz/spotify/master/src/assets/images/Conex%C3%A3oRenderDBeaver.png" />
+  </a>
+</div>
+
+
+
+### Data Base
+<div align="center"> 
+    <img style="width:100%; max-width:1200px;" src="https://raw.githubusercontent.com/Sissaz/spotify/master/src/assets/images/Banco.png" />
+  </a>
+</div>
+
+
+#### [Python Code](https://github.com/Sissaz/spotify/blob/master/src/assets/musicas_recentes.py): ETL Pipeline Code
 
 <div align="center"> 
   <a href="https://github.com/Sissaz/spotify/blob/master/src/assets/musicas_recentes.py">

@@ -93,10 +93,10 @@ This example demonstrates connecting to a PostgreSQL database using DBeaver. The
 
 
 
-#### [Python Code](https://github.com/Sissaz/spotify/blob/master/src/assets/musicas_recentes.py): ETL Pipeline Code
+### [Python Code](https://github.com/Sissaz/spotify/blob/master/src/assets/musicas_recentes.py): Download your recently played Spotify tracks data
 
 
-
+### Flowchart for Spotify Authentication and Recent Tracks Retrieval Process
 <div align="center"> 
   <a href="https://github.com/Sissaz/spotify/blob/master/src/assets/musicas_recentes.py">
     <img style="width:100%; max-width:1200px;" src="https://raw.githubusercontent.com/Sissaz/spotify/390f1fe21b106977bcecb96694a92c0497b0a1d4/src/assets/images/diagrama.svg" />

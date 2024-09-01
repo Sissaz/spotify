@@ -94,6 +94,33 @@ This example demonstrates connecting to a PostgreSQL database using DBeaver. The
 
 
 ### [Python Code](https://github.com/Sissaz/spotify/blob/master/src/assets/musicas_recentes.py): Download your recently played Spotify tracks data
+```bash
+...
+def escrever_csv(musicas, output_filepath):
+    df = pd.DataFrame(musicas)  # Converte a lista de músicas em um DataFrame
+    
+    # Verifica se o arquivo já existe
+    if os.path.isfile(output_filepath):
+        # Carrega o CSV existente
+        df_existente = pd.read_csv(output_filepath)
+        
+        # Concatena as novas linhas com as existentes, adicionando as novas linhas no topo
+        df_final = pd.concat([df, df_existente], ignore_index=True)
+    else:
+        # Se o arquivo não existir, apenas use as novas linhas
+        df_final = df
+    
+    # Remove duplicatas com base em todas as colunas
+    df_final.drop_duplicates(inplace=True)
+    
+    # Salva o DataFrame final no arquivo CSV, mantendo o cabeçalho
+    df_final.to_csv(output_filepath, index=False, encoding='utf-8')
+    
+    print(f"Arquivo CSV atualizado com novas linhas no topo e duplicatas removidas. Salvo em {output_filepath}")
+...
+
+```
+
 
 
 ### Flowchart for Spotify Authentication and Recent Tracks Retrieval Process

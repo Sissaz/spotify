@@ -87,7 +87,7 @@ This example demonstrates connecting to a PostgreSQL database using DBeaver. The
 
 ### Power BI Connection
 <div align="center"> 
-    <img style="width:100%; max-width:1200px;" src="https://raw.githubusercontent.com/Sissaz/duckdb/master/imagens/BancodedadosPostgre.png" />
+    <img style="width:50%; max-width:1200px;" src="https://raw.githubusercontent.com/Sissaz/duckdb/master/imagens/BancodedadosPostgre.png" />
   </a>
 </div>
 

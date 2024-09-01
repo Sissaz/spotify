@@ -84,7 +84,18 @@ This example demonstrates connecting to a PostgreSQL database using DBeaver. The
 </div>
 
 
+
+### Power BI Connection
+<div align="center"> 
+    <img style="width:100%; max-width:1200px;" src="https://raw.githubusercontent.com/Sissaz/duckdb/master/imagens/BancodedadosPostgre.png" />
+  </a>
+</div>
+
+
+
 #### [Python Code](https://github.com/Sissaz/spotify/blob/master/src/assets/musicas_recentes.py): ETL Pipeline Code
+
+
 
 <div align="center"> 
   <a href="https://github.com/Sissaz/spotify/blob/master/src/assets/musicas_recentes.py">

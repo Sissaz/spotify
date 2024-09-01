@@ -9,7 +9,9 @@ This Python project automates the process of retrieving and storing recently pla
 git clone https://github.com/Sissaz/spotify
 ```
 ### Create an App in Spotify for Developers
-https://developer.spotify.com/dashboard/create
+
+
+[Spotify for Developers](https://developer.spotify.com/dashboard/create)
 
 <div align="center"> 
   <a href="https://developer.spotify.com/dashboard/create">
@@ -62,8 +64,6 @@ poetry shell
 poetry run python musicas_recentes.py
 ```
 
-
- #### [Python Code](https://github.com/Sissaz/spotify/blob/master/src/assets/musicas_recentes.py): ETL Pipeline Code
 
 ### Database Connection
 

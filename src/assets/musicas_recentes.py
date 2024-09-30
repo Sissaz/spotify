@@ -272,7 +272,7 @@ def escrever_csv(musicas, output_filepath):
 # Função principal que orquestra a execução do script
 def main():
     global REFRESH_TOKEN  # Declara que usaremos a variável global REFRESH_TOKEN
-    output_filepath = 'musicas_ouvidas.csv'  # Caminho para o arquivo de saída CSV
+    output_filepath = 'musicas_ouvidas_local.csv'  # Caminho para o arquivo de saída CSV
 
     # Verifica se CLIENT_ID ou CLIENT_SECRET estão definidos
     if not CLIENT_ID or not CLIENT_SECRET:

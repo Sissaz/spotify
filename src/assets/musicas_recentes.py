@@ -156,7 +156,7 @@ def renovar_token_usuario(refresh_token, client_id, client_secret):
         print(response.text)
         return None, refresh_token
 
-# Função para fazer a requisição ao Spotify com tratamento de erros
+# Função para fazer a requisição ao Spotify
 def requisicao_spotify(url, headers, params=None):
     try:
         # Faz a requisição GET ao Spotify
@@ -169,7 +169,7 @@ def requisicao_spotify(url, headers, params=None):
         print(f"Error occurred: {req_err}")
     return None
 
-# Função para recuperar as músicas ouvidas recentemente no Spotify
+# Função para recuperar as músicas ouvidas recentemente no Spotify.
 def recuperar_musicas(headers):
     url = SPOTIFY_BASE_URL
     params = {'limit': VALOR_MAXIMO_SPOTIFY}  # Limite máximo de músicas a serem recuperadas
@@ -188,7 +188,11 @@ def recuperar_musicas(headers):
                 data_tocada = item['played_at']
 
                 # Converte a string de data e hora para um objeto datetime
-                dt_utc = datetime.strptime(data_tocada, "%Y-%m-%dT%H:%M:%S.%fZ")
+                try:
+                    dt_utc = datetime.strptime(data_tocada, "%Y-%m-%dT%H:%M:%S.%fZ")
+                except ValueError:
+                    # Se falhar, tenta sem microsegundos
+                    dt_utc = datetime.strptime(data_tocada, "%Y-%m-%dT%H:%M:%SZ")
 
                 # Subtrai 3 horas para ajustar para GMT-3
                 dt_gmt3 = dt_utc - timedelta(hours=3)
@@ -203,9 +207,9 @@ def recuperar_musicas(headers):
                 seconds = (duration_ms % 60000) // 1000  # o restante é convertido em segundos
                 duration_min_sec = f"{minutes:02}:{seconds:02}"  # formata em MM:SS
 
-                # Calcula a hora de término somando a hora inicial com a duração
-                end_time = dt_gmt3 - timedelta(minutes=minutes, seconds=seconds)
-                hora_inicio = end_time.strftime("%H:%M:%S")
+                # Calcula a hora de início subtraindo a duração da hora final
+                hora_inicio_dt = dt_gmt3 - timedelta(minutes=minutes, seconds=seconds)
+                hora_inicio = hora_inicio_dt.strftime("%H:%M:%S")
 
                 # Extrai o id do artista a partir do URI
                 artist_id = item['track']['artists'][0]['uri'].split(':')[-1]
@@ -233,12 +237,13 @@ def recuperar_musicas(headers):
                     'album_img': album_img_url
                 }
                 musicas.append(musica)  # Adiciona a música à lista
-                
+
                 pbar.update(1)  # Atualiza a barra de progresso
-                
+
         print(f"{len(musicas)} músicas recuperadas.")
 
     return musicas
+
 
 
 # Função para escrever os dados das músicas em um arquivo CSV

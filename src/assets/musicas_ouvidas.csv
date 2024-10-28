@@ -1,4 +1,5 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+Space Cluster,Zion Llama,3cpzUGjbTlToxJzxfWiW1u,,2024-10-28T11:45:46.258Z,2024-10-28,156561,02:36,08:43:10,08:45:46,spotify:track:3h8I3p3jpYWf6fIB7kbmff,https://i.scdn.co/image/ab67616d0000b27301d67cd524fb4bbe79bcd151
 Aura,So Lis,79guO4ndu3WasS8qTpee8n,,2024-10-28T04:47:18.549Z,2024-10-28,140875,02:20,01:44:58,01:47:18,spotify:track:3AowGKVPNBp70up0ToXBwD,https://i.scdn.co/image/ab67616d0000b27305b10c393bb8b6cd28617416
 Prominence,Claddagh Glas,5bN4xLWNDmClCk5kO9tPfi,,2024-10-28T04:45:09.533Z,2024-10-28,123500,02:03,01:43:06,01:45:09,spotify:track:79D0Q4QNU20RP3hIeWeXUJ,https://i.scdn.co/image/ab67616d0000b27360a8a5b3c8371518b7ea7a0a
 Dioptra,Tim Eshin,0MIELhUkO2GlHsYfatULMO,,2024-10-28T04:43:17.507Z,2024-10-28,198848,03:18,01:39:59,01:43:17,spotify:track:2G0bZcuTI7sRbVjNho9P0D,https://i.scdn.co/image/ab67616d0000b273e43d801ca0fe6cfb6099867c
@@ -10,6 +11,7 @@ Skirr,Sarah Loca,5jZXtbPYjWhoom78Eh14Wd,,2024-10-28T04:28:06.627Z,2024-10-28,150
 Caelestia,Suevite,2aiIFnAcGlUnGaWCZfirBp,,2024-10-28T04:25:48.662Z,2024-10-28,165119,02:45,01:23:03,01:25:48,spotify:track:0xHyeXmflAW6fkhAQJR8aM,https://i.scdn.co/image/ab67616d0000b273b50cd10a141e475353547137
 Sublimity,Aerial Lakes,52GC47uinFvXuWXBqx83nt,"binaural, healing hz",2024-10-28T04:23:15.664Z,2024-10-28,169055,02:49,01:20:26,01:23:15,spotify:track:4RZxj7BmKmlKAryPNkDXjt,https://i.scdn.co/image/ab67616d0000b273ac4f20a3ca2dfde626a53bf5
 Calmative,Rae Mansell,4aVZNmLEXiIMrNM5GIzRw8,,2024-10-28T04:20:38.763Z,2024-10-28,155000,02:35,01:18:03,01:20:38,spotify:track:4q0m55JUumpMjGiLtYsSan,https://i.scdn.co/image/ab67616d0000b273333114e8ba870cdca6a097b5
+Augnablik,Næturkall,57KgCAQY3AIYMaC0g2jOKb,sleep,2024-10-28T00:15:15.792Z,2024-10-27,163399,02:43,21:12:32,21:15:15,spotify:track:7bG1tltLLroslB2iN4NVXx,https://i.scdn.co/image/ab67616d0000b273db2ab80bfa468aab26826e25
 Sintra,Abyssé,4ZSC7QqnOxFeyGaAb2pKnQ,,2024-10-27T21:22:10.795Z,2024-10-27,139000,02:19,18:19:51,18:22:10,spotify:track:1YYNXuP0ILEv1f0fBgiTua,https://i.scdn.co/image/ab67616d0000b273ec66922eda882c1828411765
 Confidence,Jiao Ch'ien,6cz6KGJs1Q28j0nknp9sck,,2024-10-27T21:20:03.805Z,2024-10-27,162000,02:42,18:17:21,18:20:03,spotify:track:61LzaoAvJFI2N1qZKjWEfG,https://i.scdn.co/image/ab67616d0000b2732baba16dac5c85a9274645ce
 Drift,Ron Alan Cohen,6GneEve11sWodJ6zHEXXn6,,2024-10-27T21:17:33.705Z,2024-10-27,240184,04:00,18:13:33,18:17:33,spotify:track:3uIPfiXaSWfiuLsaZ6UkQX,https://i.scdn.co/image/ab67616d0000b273c03bb7fc067a45cfd9628748
@@ -47,8 +49,15 @@ Hoop,Pauline Huijbers,0GipzWTQjjaxqU7mtmNq2o,sleep,2024-10-27T19:54:26.667Z,2024
 Équilibre,Nuit Pluie,6fPF7rV8SX0fysuJVs7mZb,,2024-10-27T19:51:09.600Z,2024-10-27,201565,03:21,16:47:48,16:51:09,spotify:track:1kY64LDhpgy30XGXj5c7Qa,https://i.scdn.co/image/ab67616d0000b27323ee782c628d92704c053e21
 Glowing,Ilumina,7nvOsk2E0bUlBJ0R4sakht,,2024-10-27T19:47:59.594Z,2024-10-27,133065,02:13,16:45:46,16:47:59,spotify:track:2caSMfpQAY2wTvb3kgYirk,https://i.scdn.co/image/ab67616d0000b273a5bb36c0dc207c0fa5c16a24
 Calming Seas,Grant Murdoch,69MHZfuz6RQx3JpGl1OXB0,,2024-10-27T19:45:58.607Z,2024-10-27,170400,02:50,16:43:08,16:45:58,spotify:track:6fAmC1bZzVgA9E5gNrdy5k,https://i.scdn.co/image/ab67616d0000b27382c7155ad7b9c4b24ba5eba9
-Waves,Unilow,3zSgZfjvgK6sEyiEVa2vQa,,2024-10-27T19:43:20.558Z,2024-10-27,201145,03:21,16:39:59,16:43:20,spotify:track:4iIxW6p4FAFjBV8L14hQfC,https://i.scdn.co/image/ab67616d0000b273b8f4011385e98b47497b4570
-Nature of Life,Ozo Nakuru,2HhQt5oH01WtYFmwM2yVo7,,2024-10-27T19:40:10.420Z,2024-10-27,159892,02:39,16:37:31,16:40:10,spotify:track:4EaHb0wumMJODjK2vsoqTI,https://i.scdn.co/image/ab67616d0000b27347806988c8cde5c886a7859d
+Aura,So Lis,79guO4ndu3WasS8qTpee8n,,2024-10-28T04:47:18.549Z,2024-10-28,140875,02:20,01:44:58,01:47:18,spotify:track:3AowGKVPNBp70up0ToXBwD,https://i.scdn.co/image/ab67616d0000b27305b10c393bb8b6cd28617416
+Prominence,Claddagh Glas,5bN4xLWNDmClCk5kO9tPfi,,2024-10-28T04:45:09.533Z,2024-10-28,123500,02:03,01:43:06,01:45:09,spotify:track:79D0Q4QNU20RP3hIeWeXUJ,https://i.scdn.co/image/ab67616d0000b27360a8a5b3c8371518b7ea7a0a
+Dioptra,Tim Eshin,0MIELhUkO2GlHsYfatULMO,,2024-10-28T04:43:17.507Z,2024-10-28,198848,03:18,01:39:59,01:43:17,spotify:track:2G0bZcuTI7sRbVjNho9P0D,https://i.scdn.co/image/ab67616d0000b273e43d801ca0fe6cfb6099867c
+Blending,Matt Deep,2MlHEEvx7sK4aeQyDnbgMm,,2024-10-28T04:37:12.571Z,2024-10-28,226651,03:46,01:33:26,01:37:12,spotify:track:6qCWUSwJoULsz0tv9vGEv8,https://i.scdn.co/image/ab67616d0000b27317ad6a64e5984eb6f0fd42b2
+Hope For Tomorrow,Tone Jacobs,3uDLX7j7thpPkEANovcmlT,,2024-10-28T04:33:37.721Z,2024-10-28,156949,02:36,01:31:01,01:33:37,spotify:track:3KDUPdVPn8GTeqWo90MEIs,https://i.scdn.co/image/ab67616d0000b273686967c0ae926b9d4c07c36d
+Reflect,St/llar,1gfLjawL26XCWfHI8lyi5B,,2024-10-28T04:31:12.621Z,2024-10-28,197512,03:17,01:27:55,01:31:12,spotify:track:5L3CbldRc36fjCzTb9ttuj,https://i.scdn.co/image/ab67616d0000b273b89905b1ba6aa1c53b35b70a
+Skirr,Sarah Loca,5jZXtbPYjWhoom78Eh14Wd,,2024-10-28T04:28:06.627Z,2024-10-28,150100,02:30,01:25:36,01:28:06,spotify:track:0tzo8lb0ghQsazQTkmUtss,https://i.scdn.co/image/ab67616d0000b2736cae022fbfc07c9a0d92d798
+Caelestia,Suevite,2aiIFnAcGlUnGaWCZfirBp,,2024-10-28T04:25:48.662Z,2024-10-28,165119,02:45,01:23:03,01:25:48,spotify:track:0xHyeXmflAW6fkhAQJR8aM,https://i.scdn.co/image/ab67616d0000b273b50cd10a141e475353547137
+Calmative,Rae Mansell,4aVZNmLEXiIMrNM5GIzRw8,,2024-10-28T04:20:38.763Z,2024-10-28,155000,02:35,01:18:03,01:20:38,spotify:track:4q0m55JUumpMjGiLtYsSan,https://i.scdn.co/image/ab67616d0000b273333114e8ba870cdca6a097b5
 Sintra,Abyssé,4ZSC7QqnOxFeyGaAb2pKnQ,,2024-10-27T21:22:10.795Z,2024-10-27,139000,02:19,18:19:51,18:22:10,spotify:track:1YYNXuP0ILEv1f0fBgiTua,https://i.scdn.co/image/ab67616d0000b273ec66922eda882c1828411765
 Confidence,Jiao Ch'ien,6cz6KGJs1Q28j0nknp9sck,,2024-10-27T21:20:03.805Z,2024-10-27,162000,02:42,18:17:21,18:20:03,spotify:track:61LzaoAvJFI2N1qZKjWEfG,https://i.scdn.co/image/ab67616d0000b2732baba16dac5c85a9274645ce
 Drift,Ron Alan Cohen,6GneEve11sWodJ6zHEXXn6,,2024-10-27T21:17:33.705Z,2024-10-27,240184,04:00,18:13:33,18:17:33,spotify:track:3uIPfiXaSWfiuLsaZ6UkQX,https://i.scdn.co/image/ab67616d0000b273c03bb7fc067a45cfd9628748

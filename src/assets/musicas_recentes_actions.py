@@ -178,7 +178,7 @@ def recuperar_musicas(headers):
         with tqdm(total=len(results['items']), desc="Recuperando músicas", ncols=100) as pbar:
             for item in results['items']:
                 # Verifica se há imagens disponíveis e captura a primeira
-                album_img_url = item['track']['album']['images'][0]['url'] if item['track']['album']['images'] else None
+                #album_img_url = item['track']['album']['images'][0]['url'] if item['track']['album']['images'] else None
 
                 # Extrai a data e a hora da música tocada
                 data_tocada = item['played_at']

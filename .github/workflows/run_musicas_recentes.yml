@@ -23,10 +23,10 @@ jobs:
         pip install poetry
         export PATH="$HOME/.local/bin:$PATH"
       
-    - name: Use Python 3.12.1 with Poetry
+    - name: Use Python 3.12 with Poetry
       working-directory: ./src
       run: |
-        poetry env use 3.12.1
+        poetry env use 3.12
         poetry install --no-root
 
     - name: Run Spotify Script

@@ -229,8 +229,8 @@ def recuperar_musicas(headers):
                     'duracao_min': duration_min_sec,
                     'hora_inicio': hora_inicio,
                     'hora_fim': hora,
-                    'spotify_track_uri': item['track']['uri'],
-                    'album_img': album_img_url
+                    'spotify_track_uri': item['track']['uri']
+                    # 'album_img': album_img_url
                 }
                 musicas.append(musica)  # Adiciona a música à lista
 

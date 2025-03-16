@@ -1,4 +1,6 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+"Requiem, K. 626: Lacrimosa",Wolfgang Amadeus Mozart,4NJhFmfw43RLBLjQvxDuRS,"classical, requiem, opera, classical piano, chamber music",2025-03-16T18:04:57.169Z,2025-03-16,169666,02:49,15:02:08,15:04:57,spotify:track:3oHSL6pt9LpNrQZuQGu9wL,
+The Real Slim Shady,Eminem,7dGJo4pcD2V6oG8kP0tJRR,"rap, hip hop",2025-03-16T01:11:39.336Z,2025-03-15,284200,04:44,22:06:55,22:11:39,spotify:track:3yfqSUWxFvZELEM4PmlwIR,
 Make It Bun Dem,Skrillex,5he5w2lnU9x7JFhnwcekXX,"dubstep, edm, electro, electronic",2025-03-15T17:14:47.107Z,2025-03-15,213696,03:33,14:11:14,14:14:47,spotify:track:6AbVJjzv7thIvmMCuhZrmK,
 Freaks,Timmy Trumpet,0CbeG1224FS58EUx4tPevZ,"melbourne bounce, big room",2025-03-15T17:11:12.909Z,2025-03-15,168750,02:48,14:08:24,14:11:12,spotify:track:62feRreeM9ea7i2VHVSKrg,
 Fired Up,Hush,3P9vWhSo2PjRdxBvJutKIq,,2025-03-15T17:08:23.655Z,2025-03-15,206288,03:26,14:04:57,14:08:23,spotify:track:2dVhhqjiFFRV9zkNFoM1WM,
@@ -47,8 +49,6 @@ Take on Me,a-ha,2jzc5TC5TVFLXQlBNiIUzE,"new wave, synthpop",2025-03-14T19:01:48.
 Urgent,Foreigner,6IRouO5mvvfcyxtPDKMYFN,"album rock, classic rock",2025-03-14T18:58:02.979Z,2025-03-14,271200,04:31,15:53:31,15:58:02,spotify:track:08onVqQ8YicJ98Ycm1qoLf,
 Don't You Want Me,The Human League,1aX2dmV8XoHYCOQRxjPESG,"new wave, synthpop",2025-03-14T18:53:31.263Z,2025-03-14,236920,03:56,15:49:35,15:53:31,spotify:track:3L7RtEcu1Hw3OXrpnthngx,
 The Promise,When In Rome,3jOO5nZ2XPmc232rNjzqJy,"new wave, synthpop",2025-03-14T18:49:33.422Z,2025-03-14,220960,03:40,15:45:53,15:49:33,spotify:track:48p5E25cFPanxuwCTmTpuL,
-Who Can It Be Now (Live in Christchurch 1982),Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-03-14T18:45:52.389Z,2025-03-14,291397,04:51,15:41:01,15:45:52,spotify:track:3FhkdxaLUqQbejCRJxdFdM,
-Abracadabra,Steve Miller Band,6QtGlUje9TIkLrgPZrESuk,classic rock,2025-03-14T18:41:00.491Z,2025-03-14,308373,05:08,15:35:52,15:41:00,spotify:track:2E2ZVy2fxslpAUgbb4zu84,
 Fired Up,Hush,3P9vWhSo2PjRdxBvJutKIq,,2025-03-15T17:08:23.655Z,2025-03-15,206288,03:26,14:04:57,14:08:23,spotify:track:2dVhhqjiFFRV9zkNFoM1WM,
 Pump It,Black Eyed Peas,1yxSLGMDHlW21z4YXirZDS,,2025-03-15T16:40:42.741Z,2025-03-15,213066,03:33,13:37:09,13:40:42,spotify:track:2ygMBIctKIAfbEBcT9065L,
 Beggin',Måneskin,0lAWpj5szCSwM4rUMHYmrr,,2025-03-15T16:32:18.332Z,2025-03-15,211560,03:31,13:28:47,13:32:18,spotify:track:3Wrjm47oTz2sjIgck11l5e,
@@ -69,6 +69,7 @@ No Sign Of Yesterday,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-03-14T19:32:11.079
 Maniac,Michael Sembello,771qBvjnXOH9Azr6lKy6FB,,2025-03-14T19:25:59.286Z,2025-03-14,244706,04:04,16:21:55,16:25:59,spotify:track:0QKfiqpEU4h9ycPSzIFwYe,
 Children of Parade,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-03-14T19:05:29.097Z,2025-03-14,219840,03:39,16:01:50,16:05:29,spotify:track:23kra94fB5wR0NGE4B05sW,
 Who Can It Be Now (Live in Christchurch 1982),Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-03-14T18:45:52.389Z,2025-03-14,291397,04:51,15:41:01,15:45:52,spotify:track:3FhkdxaLUqQbejCRJxdFdM,
+Abracadabra,Steve Miller Band,6QtGlUje9TIkLrgPZrESuk,classic rock,2025-03-14T18:41:00.491Z,2025-03-14,308373,05:08,15:35:52,15:41:00,spotify:track:2E2ZVy2fxslpAUgbb4zu84,
 Valfar,Vǫluspá,04sNuGpenIU7aYWLTycRN7,"neofolk, folk metal, celtic",2025-03-14T22:41:07.698Z,2025-03-14,223880,03:43,19:37:24,19:41:07,spotify:track:4vv4dUL1xxjZigTSP6H6A3,
 Mad World,Tears For Fears,4bthk9UfsYUYdcFyqxmSUU,"new wave, synthpop",2025-03-14T18:35:51.609Z,2025-03-14,215400,03:35,15:32:16,15:35:51,spotify:track:0Qv7xi6uPSqH2k82tOkGSt,
 Every Breath You Take,The Police,5NGO30tJxFlKixkPSgXcFE,,2025-03-14T18:32:15.710Z,2025-03-14,253920,04:13,15:28:02,15:32:15,spotify:track:1JSTJqkT5qHq8MDJnJbRE1,

@@ -1,4 +1,5 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+The State of the World,Kalandra,2N0vFuOoMtAQfBmhsRo24e,,2025-03-20T02:13:39.067Z,2025-03-19,258880,04:18,23:09:21,23:13:39,spotify:track:4FLKKYFdKb4ChNVC6us3oG,
 Ymir,Gealdýr,0T3UezATgzQo2sJkjzEsmM,"neofolk, celtic, medieval",2025-03-20T00:14:11.079Z,2025-03-19,257579,04:17,21:09:54,21:14:11,spotify:track:0bgGgqsmfGk2r177BsCrSI,
 Hjulet Vänder,Hindarfjäll,2whm1PlA7DHAGCTk7oQ0G4,neofolk,2025-03-20T00:09:53.036Z,2025-03-19,207307,03:27,21:06:26,21:09:53,spotify:track:78z2FeMrlku8HgMBtgDxcq,
 Fornjot,Ivar Bjørnson & Einar Selvik,6oMLJmmChVOrBm8MmcfHES,"neofolk, folk metal, celtic, medieval",2025-03-20T00:06:25.218Z,2025-03-19,281373,04:41,21:01:44,21:06:25,spotify:track:1w2Ci8sTu4cgQFr2eS4u18,
@@ -48,7 +49,6 @@ Iron Hand,Dire Straits,0WwSkZ7LtFUFjGjMZBMt6T,classic rock,2025-03-19T11:39:08.1
 Colours - 2016 Remaster,Phil Collins,4lxfqrEsLX6N1N4OCSkILp,soft rock,2025-03-19T01:08:23.258Z,2025-03-18,531093,08:51,21:59:32,22:08:23,spotify:track:0GjXe8FmPg3V4Gz8UVt3QL,
 You Don't Understand Me,Roxette,2SHhfs4BiDxGQ3oxqf0UHY,,2025-03-19T01:03:38.776Z,2025-03-18,268693,04:28,21:59:10,22:03:38,spotify:track:2ml34OiH9fNXFS9bS5Q6in,
 Don't You Want Me,The Human League,1aX2dmV8XoHYCOQRxjPESG,"new wave, synthpop",2025-03-19T00:59:09.601Z,2025-03-18,236920,03:56,21:55:13,21:59:09,spotify:track:3L7RtEcu1Hw3OXrpnthngx,
-Knockin' On Heaven's Door,Bob Dylan,74ASZWbe4lXaubB36ztrGX,"folk rock, folk, singer-songwriter, roots rock, country rock",2025-03-19T00:55:12.189Z,2025-03-18,149880,02:29,21:52:43,21:55:12,spotify:track:6HSXNV0b4M4cLJ7ljgVVeh,
 Slow Motion,Kalandra,2N0vFuOoMtAQfBmhsRo24e,,2025-03-19T23:54:10.409Z,2025-03-19,319292,05:19,20:48:51,20:54:10,spotify:track:7JZxpUYXrzPCwYK4jlOL6M,
 Veiviseren - Extended,Kalandra,2N0vFuOoMtAQfBmhsRo24e,,2025-03-19T23:29:51.655Z,2025-03-19,150101,02:30,20:27:21,20:29:51,spotify:track:4NXKYWz65Va2LpZDFWh2qV,
 Borders,Kalandra,2N0vFuOoMtAQfBmhsRo24e,,2025-03-19T23:06:21.230Z,2025-03-19,329898,05:29,20:00:52,20:06:21,spotify:track:6IiDZInzA2Ecv2UoIXhhQ3,
@@ -58,6 +58,7 @@ Brave New World,Kalandra,2N0vFuOoMtAQfBmhsRo24e,,2025-03-19T21:47:04.026Z,2025-0
 Helvegen,Kalandra,2N0vFuOoMtAQfBmhsRo24e,,2025-03-19T21:43:03.920Z,2025-03-19,412372,06:52,18:36:11,18:43:03,spotify:track:596DO7Czmqib9aHtYNkE3I,
 Spending My Time,Roxette,2SHhfs4BiDxGQ3oxqf0UHY,,2025-03-19T12:03:42.465Z,2025-03-19,275666,04:35,08:59:07,09:03:42,spotify:track:4wf2u78747lu1rU5WbpXMk,
 You Don't Understand Me,Roxette,2SHhfs4BiDxGQ3oxqf0UHY,,2025-03-19T01:03:38.776Z,2025-03-18,268693,04:28,21:59:10,22:03:38,spotify:track:2ml34OiH9fNXFS9bS5Q6in,
+Knockin' On Heaven's Door,Bob Dylan,74ASZWbe4lXaubB36ztrGX,"folk rock, folk, singer-songwriter, roots rock, country rock",2025-03-19T00:55:12.189Z,2025-03-18,149880,02:29,21:52:43,21:55:12,spotify:track:6HSXNV0b4M4cLJ7ljgVVeh,
 I Still Haven't Found What I'm Looking For,U2,51Blml2LZPmy7TTiAg47vQ,rock,2025-03-19T00:52:41.819Z,2025-03-18,277476,04:37,21:48:04,21:52:41,spotify:track:6wpGqhRvJGNNXwWlPmkMyO,
 Two Hearts,Phil Collins,4lxfqrEsLX6N1N4OCSkILp,soft rock,2025-03-19T00:48:03.823Z,2025-03-18,204386,03:24,21:44:39,21:48:03,spotify:track:2BgWv15eKCDfiubKo6o76k,
 Your Latest Trick - Remastered 1996,Dire Straits,0WwSkZ7LtFUFjGjMZBMt6T,classic rock,2025-03-19T00:44:38.917Z,2025-03-18,389666,06:29,21:38:09,21:44:38,spotify:track:2oKOGvdJ5BQEiguaSQJJpc,

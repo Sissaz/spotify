@@ -1,4 +1,5 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+Moonlight Sonata,Ludwig van Beethoven,2wOqMjp9TyABvtHdOSOTUS,"classical, classical piano, chamber music",2025-04-10T02:19:41.022Z,2025-04-09,447186,07:27,23:12:14,23:19:41,spotify:track:1j2M5ekufbxpzGYzuorgKt,
 Blue for You,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-04-10T00:14:17.611Z,2025-04-09,235906,03:55,21:10:22,21:14:17,spotify:track:4AKBIfhYc2RSQ1NbL0x2kL,
 Down By the Sea,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-04-10T00:09:32.668Z,2025-04-09,413200,06:53,21:02:39,21:09:32,spotify:track:0bybFti0XQtaXnVqIzTuGN,
 Children On Parade,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-04-10T00:02:38.957Z,2025-04-09,216186,03:36,20:59:02,21:02:38,spotify:track:7G8WftePNrG4fw3XtqQMru,
@@ -48,7 +49,6 @@ More Than Anything,Richter Gravitas,2DLiGfmS8hciTINAkqY2XG,,2025-04-08T20:34:58.
 Star Light,Secret Medicine,0tMQJ9EVT0vfsG67K867kR,,2025-04-08T20:33:04.398Z,2025-04-08,152000,02:32,17:30:32,17:33:04,spotify:track:2z3jtBK8vqwNIVQpN3lO78,
 Distant Star,Nash Parker,6gFeBMvafy8NNfpc1L0HTK,,2025-04-08T20:30:44.345Z,2025-04-08,172708,02:52,17:27:52,17:30:44,spotify:track:009t6jXPEMqjR8sajWI0k8,
 Rainbow Days,Janinan.,7tj72nDddYtKjWHdQ7YadH,,2025-04-08T20:28:03.464Z,2025-04-08,194000,03:14,17:24:49,17:28:03,spotify:track:6mY7TTC8qzOURWVNjdiB03,
-milagro,Ezechiel Almonte,0v5fZ2O6PA8HBHeiIALNx9,,2025-04-08T20:25:01.419Z,2025-04-08,182579,03:02,17:21:59,17:25:01,spotify:track:4RlPG34EWDZRfQpOFXIr5a,
 Blue for You,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-04-10T00:14:17.611Z,2025-04-09,235906,03:55,21:10:22,21:14:17,spotify:track:4AKBIfhYc2RSQ1NbL0x2kL,
 Down By the Sea,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-04-10T00:09:32.668Z,2025-04-09,413200,06:53,21:02:39,21:09:32,spotify:track:0bybFti0XQtaXnVqIzTuGN,
 Children On Parade,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-04-10T00:02:38.957Z,2025-04-09,216186,03:36,20:59:02,21:02:38,spotify:track:7G8WftePNrG4fw3XtqQMru,

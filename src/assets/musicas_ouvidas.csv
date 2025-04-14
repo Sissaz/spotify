@@ -1,4 +1,5 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+Moonlight Sonata,Ludwig van Beethoven,2wOqMjp9TyABvtHdOSOTUS,"classical, classical piano, chamber music",2025-04-13T02:11:13.695Z,2025-04-12,447186,07:27,23:03:46,23:11:13,spotify:track:1j2M5ekufbxpzGYzuorgKt,
 Lost In Life,Sirenia,5FXMcILCOMjljRTV6cLoiE,"symphonic metal, gothic metal, melodic metal, symphonic rock, power metal, metal",2025-04-11T18:47:44.919Z,2025-04-11,192240,03:12,15:44:32,15:47:44,spotify:track:6WMpdVIM1zNOPPWHwDKHHI,
 Rivers,Epica,5HA5aLY3jJV7eimXWkRBBp,"symphonic metal, gothic metal, symphonic rock, melodic metal, power metal, metal, folk metal",2025-04-11T18:42:10.422Z,2025-04-11,288016,04:48,15:37:22,15:42:10,spotify:track:6SO03S6E3WsdfUsrdz447z,
 Kuolema Tekee Taiteilijan,Nightwish,2NPduAUeLVsfIauhRwuft1,"symphonic metal, gothic metal, power metal, symphonic rock, melodic metal, metal, folk metal",2025-04-11T18:37:21.819Z,2025-04-11,238506,03:58,15:33:23,15:37:21,spotify:track:0k8j472pNJk5cWj5tXEHNL,
@@ -48,7 +49,6 @@ Giving Up,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-04-09T23:27:52.425Z,2025-04-0
 It's A Mistake,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-04-09T23:24:24.145Z,2025-04-09,286973,04:46,20:19:38,20:24:24,spotify:track:1ArdfXwdvwzapms9p1wxEb,
 Who Can It Be Now?,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-04-09T23:19:36.702Z,2025-04-09,201293,03:21,20:16:15,20:19:36,spotify:track:5rfJ2Bq2PEL8yBjZLzouEu,
 Snakes And Ladders,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-04-09T23:16:14.908Z,2025-04-09,196560,03:16,20:12:58,20:16:14,spotify:track:3TqeafIjCzuYU5awVyAY7m,
-Everything I Need,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-04-09T23:12:57.846Z,2025-04-09,214853,03:34,20:09:23,20:12:57,spotify:track:3AzJso06se44RPcNiNmi7c,
 Snakes And Ladders,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-04-11T17:31:33.467Z,2025-04-11,196560,03:16,14:28:17,14:31:33,spotify:track:3TqeafIjCzuYU5awVyAY7m,
 Be Good Johnny,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-04-11T17:28:16.356Z,2025-04-11,213573,03:33,14:24:43,14:28:16,spotify:track:11Hzn4toShJ4U57Jrj4H0y,
 Overkill,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-04-11T17:24:42.269Z,2025-04-11,223373,03:43,14:20:59,14:24:42,spotify:track:0YYw4TXq8oteV3R7UD3JCF,

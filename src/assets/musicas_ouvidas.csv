@@ -1,4 +1,5 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+Waves of Existence,Trail Of Tears,76xPyUXPsTtSfap214AjLd,"gothic metal, symphonic metal, doom metal",2025-04-14T16:39:44.464Z,2025-04-14,252720,04:12,13:35:32,13:39:44,spotify:track:2ATWZZMXCrpv2sjZLc9c3A,
 Enter,Within Temptation,3hE8S8ohRErocpkY7uJW4a,"symphonic metal, gothic metal, symphonic rock, melodic metal, metal, power metal",2025-04-14T16:37:30.759Z,2025-04-14,434613,07:14,13:30:16,13:37:30,spotify:track:1QU2dPUYd2O9bf4lDA2XXh,
 Stalingrad,Dark Lunacy,63P5FOHij9qylmUA4rjHwQ,"melodic death metal, symphonic metal, melodic metal, gothic metal, death metal",2025-04-14T16:30:15.623Z,2025-04-14,431098,07:11,13:23:04,13:30:15,spotify:track:3m0il69qM3aZVsglCIJJOf,
 Uthark Runa,Therion,5c8Cw62ZYj9XO6iDLRDEsi,"symphonic metal, gothic metal, symphonic rock, melodic metal, power metal, metal, folk metal, death metal, progressive metal, doom metal",2025-04-14T16:23:04.031Z,2025-04-14,281800,04:41,13:18:23,13:23:04,spotify:track:0TJOVITpYgjWXa9ITzyNtk,
@@ -48,8 +49,6 @@ When The Smoke Is Going Down,Scorpions,27T030eWyCQRmDyuvr1kxY,"hard rock, glam m
 A Tale That Wasn't Right - 2024 Remaster,Helloween,4pQN0GB0fNEEOfQCaWotsY,"power metal, speed metal, heavy metal, metal, melodic metal, symphonic metal",2025-04-11T18:07:53.657Z,2025-04-11,284526,04:44,15:03:09,15:07:53,spotify:track:18XBoS4OTPBL3m9otvRnCI,
 Wait for Sleep,Dream Theater,2aaLAng2L2aWD2FClzwiep,"progressive metal, progressive rock, metal",2025-04-11T18:03:08.762Z,2025-04-11,151866,02:31,15:00:37,15:03:08,spotify:track:7LaaIr1D8CjH1tc7ERTr8A,
 Angel,Judas Priest,2tRsMl4eGxwoNabM08Dm4I,"heavy metal, metal, hard rock, glam metal, speed metal",2025-04-11T18:00:36.400Z,2025-04-11,264200,04:24,14:56:12,15:00:36,spotify:track:0HSqXHUdHUbDjWxYIClohv,
-Belladonna - 2007 Remaster,UFO,2Omy3P5hFZym7FKum1JA1s,"hard rock, album rock, space rock, heavy metal",2025-04-11T17:56:11.679Z,2025-04-11,272573,04:32,14:51:39,14:56:11,spotify:track:6BGUYLgCoj6ZVkgvkpL8er,
-Kali Yuga III,Therion,5c8Cw62ZYj9XO6iDLRDEsi,,2025-04-14T13:47:17.781Z,2025-04-14,221266,03:41,10:43:36,10:47:17,spotify:track:1VYreY6DPohoTgjXmvXWI2,
 Table For Two,Abel Korzeniowski,5RGAUCWFZyymaMSAZJeice,,2025-04-14T04:01:55.407Z,2025-04-14,203466,03:23,00:58:32,01:01:55,spotify:track:20vEB3It4xYzKHlMecu6X1,
 goin' through,Ford Duet,1jGxdKGvNMTvBRrFuW9vTf,,2025-04-14T03:58:31.431Z,2025-04-14,128373,02:08,00:56:23,00:58:31,spotify:track:29IHWTbjlOZ9Tc9BGGxWCk,
 A Fragment of My Soul,Invadable Harmony,0dOsUmRuQ52Tp8sEG10vjt,,2025-04-14T03:45:36.189Z,2025-04-14,126644,02:06,00:43:30,00:45:36,spotify:track:7Hwm5b042xbiGvaNdFGxT9,
@@ -58,6 +57,8 @@ dear edmond,Ophelia Wilde,0UucWXEyfCOSWlvGQYmPu3,,2025-04-14T03:40:39.470Z,2025-
 Van Gogh,Virginio Aiello,2rT3EQUN0gsGe8Xb8XKIjo,,2025-04-14T03:38:21.894Z,2025-04-14,183083,03:03,00:35:18,00:38:21,spotify:track:2vCGb0Sr5ismOhXPliKLRW,
 Passacaglia (Piano Version),Pianovus,3LwX6FJHB0VKS1erpB5RR3,,2025-04-14T03:25:00.950Z,2025-04-14,155000,02:35,00:22:25,00:25:00,spotify:track:7tA2yJHI46hAbu4rGU5fmD,
 Lament,Invadable Harmony,0dOsUmRuQ52Tp8sEG10vjt,,2025-04-14T03:22:25.425Z,2025-04-14,120884,02:00,00:20:25,00:22:25,spotify:track:0E8a0LvkV7jUWaGmxSUTGc,
+Belladonna - 2007 Remaster,UFO,2Omy3P5hFZym7FKum1JA1s,"hard rock, album rock, space rock, heavy metal",2025-04-11T17:56:11.679Z,2025-04-11,272573,04:32,14:51:39,14:56:11,spotify:track:6BGUYLgCoj6ZVkgvkpL8er,
+Kali Yuga III,Therion,5c8Cw62ZYj9XO6iDLRDEsi,,2025-04-14T13:47:17.781Z,2025-04-14,221266,03:41,10:43:36,10:47:17,spotify:track:1VYreY6DPohoTgjXmvXWI2,
 Before the Dawn,Judas Priest,2tRsMl4eGxwoNabM08Dm4I,"heavy metal, metal, hard rock, glam metal, speed metal",2025-04-11T17:51:38.646Z,2025-04-11,203066,03:23,14:48:15,14:51:38,spotify:track:29KPwkhfGpRkrL57TmFbDE,
 Snakes And Ladders,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-04-11T17:31:33.467Z,2025-04-11,196560,03:16,14:28:17,14:31:33,spotify:track:3TqeafIjCzuYU5awVyAY7m,
 Be Good Johnny,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-04-11T17:28:16.356Z,2025-04-11,213573,03:33,14:24:43,14:28:16,spotify:track:11Hzn4toShJ4U57Jrj4H0y,

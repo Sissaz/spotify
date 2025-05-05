@@ -1,4 +1,5 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+Cassandra,Theatre Of Tragedy,31eXqCx5cAlItdGdoHMEOu,"gothic metal, symphonic metal, doom metal, melodic metal, symphonic rock",2025-05-05T03:01:50.555Z,2025-05-05,408626,06:48,23:55:02,00:01:50,spotify:track:4vkoYIgUmOrhiXbT8DMDEV,
 Dishearten,Draconian,1TX9g1uSl0B0DQIE9lBqmU,"gothic metal, doom metal, symphonic metal, melodic death metal, melodic metal",2025-05-05T02:57:53.890Z,2025-05-04,396573,06:36,23:51:17,23:57:53,spotify:track:5SeVyh5yl3jKM8buqroY2R,
 Nightfall,Mandragora Scream,1AYR9Ow3g2tzBY9mQYCZUv,"gothic metal, symphonic metal, melodic metal, doom metal",2025-05-05T02:51:16.820Z,2025-05-04,370626,06:10,23:45:06,23:51:16,spotify:track:5MoUHqa2auVx76KAaicYIr,
 A Sequel of Decay,Tristania,2EOmvmVtYMTgn45w9mWUTV,"gothic metal, symphonic metal, doom metal, melodic metal, symphonic rock",2025-05-05T02:45:05.602Z,2025-05-04,393866,06:33,23:38:32,23:45:05,spotify:track:1oTime8i96QHIKfhyqNp2O,
@@ -48,11 +49,11 @@ Iron Hand,Dire Straits,0WwSkZ7LtFUFjGjMZBMt6T,classic rock,2025-05-04T04:29:22.7
 Beautiful Girl,INXS,1eClJfHLoDI4rZe5HxzBFv,,2025-05-04T04:26:14.009Z,2025-05-04,207453,03:27,01:22:47,01:26:14,spotify:track:4FtcubXLzT1821D5vLK9H8,
 Owner of a Lonely Heart,Yes,7AC976RDJzL2asmZuz7qil,"progressive rock, symphonic rock, art rock, album rock",2025-05-04T04:22:46.064Z,2025-05-04,268506,04:28,01:18:18,01:22:46,spotify:track:0GTK6TesV108Jj5D3MHsYb,
 Comfortably Numb,Pink Floyd,0k17h0D3J5VfsdmQ1iZtE9,"progressive rock, psychedelic rock, classic rock, symphonic rock, art rock, rock",2025-05-04T04:18:17.052Z,2025-05-04,382296,06:22,01:11:55,01:18:17,spotify:track:5HNCy40Ni5BZJFw1TKzRsC,
-Parisienne Walkways,Gary Moore,23wr9RJZg0PmYvVFyNkQ4j,"blues, blues rock",2025-05-04T04:11:54.218Z,2025-05-04,200640,03:20,01:08:34,01:11:54,spotify:track:6z4VNjyxLfRXRx23gzl51x,
 Wrapped Around Your Finger - Remastered 2003,The Police,5NGO30tJxFlKixkPSgXcFE,,2025-05-04T05:59:50.847Z,2025-05-04,313706,05:13,02:54:37,02:59:50,spotify:track:400ZJAUFuEuIGXhr7ie4xf,
 White Wedding - Pt. 1,Billy Idol,7lzordPuZEXxwt9aoVZYmG,,2025-05-04T05:30:37.413Z,2025-05-04,252200,04:12,02:26:25,02:30:37,spotify:track:1gzIbdFnGJ226LTl0Cn2SX,
 Every Breath You Take,The Police,5NGO30tJxFlKixkPSgXcFE,,2025-05-04T05:09:37.549Z,2025-05-04,253920,04:13,02:05:24,02:09:37,spotify:track:1JSTJqkT5qHq8MDJnJbRE1,
 Beautiful Girl,INXS,1eClJfHLoDI4rZe5HxzBFv,,2025-05-04T04:26:14.009Z,2025-05-04,207453,03:27,01:22:47,01:26:14,spotify:track:4FtcubXLzT1821D5vLK9H8,
+Parisienne Walkways,Gary Moore,23wr9RJZg0PmYvVFyNkQ4j,"blues, blues rock",2025-05-04T04:11:54.218Z,2025-05-04,200640,03:20,01:08:34,01:11:54,spotify:track:6z4VNjyxLfRXRx23gzl51x,
 News,Dire Straits,0WwSkZ7LtFUFjGjMZBMt6T,classic rock,2025-05-04T04:08:33.102Z,2025-05-04,253400,04:13,01:04:20,01:08:33,spotify:track:4s6p0rVzSaWqaJRsp0HBDI,
 Sultans Of Swing,Dire Straits,0WwSkZ7LtFUFjGjMZBMt6T,classic rock,2025-05-04T04:04:18.435Z,2025-05-04,348400,05:48,00:58:30,01:04:18,spotify:track:37Tmv4NnfQeb0ZgUC4fOJj,
 Stereo Love,Edward Maya,6XwwFnewNgWp81MYMK8zLq,,2025-05-04T03:45:30.136Z,2025-05-04,185120,03:05,00:42:25,00:45:30,spotify:track:11Iv8RCFmeImLOpaHYxKb4,

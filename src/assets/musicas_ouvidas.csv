@@ -1,4 +1,5 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+Voyage voyage,Desireless,1yjAx9cww4f1QuAaN3dUI2,,2025-05-13T01:05:13.774Z,2025-05-12,266600,04:26,22:00:47,22:05:13,spotify:track:2d8D7uk3tbAThjRkdfrx9c,
 Only the Young (2024 Remaster),Journey,0rvjqX7ttXeg3mTy8Xscbt,"album rock, classic rock",2025-05-13T00:35:58.615Z,2025-05-12,244493,04:04,21:31:54,21:35:58,spotify:track:6S89Xbg2YPxmS5VfDBlZVt,
 Another Night,Real McCoy,2vRfKzjQYJQd67X8x49MOh,"eurodance, europop",2025-05-12T19:09:37.512Z,2025-05-12,236933,03:56,16:05:41,16:09:37,spotify:track:0gggjVyUJd90tYzAnmBjFV,
 Big in Japan,Alphaville,0xliTEbFfy5HQHvsTknTkX,synthpop,2025-05-12T19:05:40.086Z,2025-05-12,286160,04:46,16:00:54,16:05:40,spotify:track:3BZGi1yUqQyCNC868AqUGG,
@@ -48,7 +49,6 @@ Rhythm Is a Dancer (12'' Version),SNAP!,2FrKQPjJe4pVMZOgm0ESOx,eurodance,2025-05
 Take on Me,a-ha,2jzc5TC5TVFLXQlBNiIUzE,"new wave, synthpop",2025-05-05T20:38:09.426Z,2025-05-05,225280,03:45,17:34:24,17:38:09,spotify:track:2WfaOiMkCvy7F5fcp2zZ8L,
 Baby Baby,Corona,26T6b8maqEVltcmE4kSDUl,eurodance,2025-05-05T20:34:23.637Z,2025-05-05,228013,03:48,17:30:35,17:34:23,spotify:track:4lDKORchTM8Rd0PFQFXTLX,
 Better Off Alone,Alice Deejay,2tbvDi9eXf9XXp06LupkED,"eurodance, europop",2025-05-05T20:30:35.055Z,2025-05-05,214883,03:34,17:27:01,17:30:35,spotify:track:5XVjNRubJUW0iPhhSWpLCj,
-The Rhythm of the Night,Corona,26T6b8maqEVltcmE4kSDUl,eurodance,2025-05-05T20:26:59.707Z,2025-05-05,264280,04:24,17:22:35,17:26:59,spotify:track:0ofMkI3jzmGCElAOgOLeo3,
 Catch My Fall,Billy Idol,7lzordPuZEXxwt9aoVZYmG,,2025-05-12T16:50:19.433Z,2025-05-12,224333,03:44,13:46:35,13:50:19,spotify:track:6vrQiNJDkGyKzxlNCQGwNo,
 Be Good Johnny,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-05-12T16:37:53.841Z,2025-05-12,215400,03:35,13:34:18,13:37:53,spotify:track:2ZgKs2gWOv4zMmfGcCgJGP,
 Dr. Heckyll & Mr. Jive,Men At Work,0f3EsoviYnRKTkmayI3cux,,2025-05-12T16:34:17.896Z,2025-05-12,285333,04:45,13:29:32,13:34:17,spotify:track:4hXxnHb8rmmSHW8QPY4egm,
@@ -80,6 +80,7 @@ Luna Dreams,Calmative,4jdsVahXLyNHILghPDbeQt,,2025-05-09T02:05:13.099Z,2025-05-0
 Sandhya,Dhriti Tiwari,22nMXe6y9TxPBF0ebouNPy,,2025-05-09T02:00:17.115Z,2025-05-08,146000,02:26,22:57:51,23:00:17,spotify:track:0oWESCZ7b4nD5TGa41pUPd,
 Open Air 528 Hz,David Elo,6j82CtAMpY8Oa3unyVmriF,,2025-05-09T01:58:03.116Z,2025-05-08,157544,02:37,22:55:26,22:58:03,spotify:track:2nGixBbVap6Bw3jHhheqZO,
 Sal Fjallsins,Astra Sky,3VpKQ8XUwdGp6vQ5QQ3ZbP,,2025-05-09T01:55:37.215Z,2025-05-08,159625,02:39,22:52:58,22:55:37,spotify:track:4eVJ2RTbfxUcTLnSnnKUOM,
+The Rhythm of the Night,Corona,26T6b8maqEVltcmE4kSDUl,eurodance,2025-05-05T20:26:59.707Z,2025-05-05,264280,04:24,17:22:35,17:26:59,spotify:track:0ofMkI3jzmGCElAOgOLeo3,
 Rhythm Is a Dancer,SNAP!,2FrKQPjJe4pVMZOgm0ESOx,eurodance,2025-05-05T20:22:26.840Z,2025-05-05,332229,05:32,17:16:54,17:22:26,spotify:track:5uFYYOyT3EclOVhiFzPJSz,
 Cassandra,Theatre Of Tragedy,31eXqCx5cAlItdGdoHMEOu,"gothic metal, symphonic metal, doom metal, melodic metal, symphonic rock",2025-05-05T03:01:50.555Z,2025-05-05,408626,06:48,23:55:02,00:01:50,spotify:track:4vkoYIgUmOrhiXbT8DMDEV,
 Dishearten,Draconian,1TX9g1uSl0B0DQIE9lBqmU,"gothic metal, doom metal, symphonic metal, melodic death metal, melodic metal",2025-05-05T02:57:53.890Z,2025-05-04,396573,06:36,23:51:17,23:57:53,spotify:track:5SeVyh5yl3jKM8buqroY2R,

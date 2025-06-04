@@ -1,4 +1,5 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+The Party Is Over,Lacrimosa,57ekbx9PSS4ORs5wTZMSYp,"gothic metal, symphonic metal, gothic rock, darkwave",2025-06-04T12:18:55.484Z,2025-06-04,329266,05:29,09:13:26,09:18:55,spotify:track:6JoAAD2gnjZe0KjYw8RwiF,
 Why We Build the Wall,Patrick Page,4Dk7zvn9NdF4TESEa8Bbbj,musicals,2025-06-03T21:01:52.570Z,2025-06-03,240193,04:00,17:57:52,18:01:52,spotify:track:4PSbZlUuI9spybHZkbIlAX,
 Once Upon a December,Christy Altomare,789FjOfgnmP40E4Zdyj7F4,musicals,2025-06-03T21:00:05.664Z,2025-06-03,179840,02:59,17:57:06,18:00:05,spotify:track:4W37fDymJzsqaarlKKEvcM,
 It's a Dangerous Game,Anthony Warlow,3faBY5hwcIglhoJL7vUwef,musicals,2025-06-03T20:57:04.953Z,2025-06-03,256626,04:16,17:52:48,17:57:04,spotify:track:62BFNspxjWOOVO1weODhsb,
@@ -48,7 +49,6 @@ Elusive Sun,Sirenia,5FXMcILCOMjljRTV6cLoiE,"symphonic metal, gothic metal, gothi
 Fjara,Sólstafir,721C5U5rM8J0jjq6IQuSBK,"post-rock, black metal, folk metal, doom metal, progressive metal",2025-06-03T01:14:47.379Z,2025-06-02,399706,06:39,22:08:08,22:14:47,spotify:track:6Lo1WLiGG9asMjrkjxlfSI,
 Kyrie,Lacrimosa,57ekbx9PSS4ORs5wTZMSYp,"gothic metal, symphonic metal, gothic rock, darkwave",2025-06-03T01:08:07Z,2025-06-02,764453,12:44,21:55:23,22:08:07,spotify:track:27sWPjG8bFvnhtdslgvpDJ,
 The Drifter,Iterum Nata,2haCAnM4Yi8B2lhUTT0rbY,space rock,2025-06-02T19:20:08.116Z,2025-06-02,227090,03:47,16:16:21,16:20:08,spotify:track:1jTcnS5sr3Mtj5W0PhJA8k,
-Urd Skuld og Verdande,Vǫluspá,04sNuGpenIU7aYWLTycRN7,"celtic, folk metal",2025-06-02T19:16:19.468Z,2025-06-02,136040,02:16,16:14:03,16:16:19,spotify:track:1cDK2Zkxx0Cx9Y8YsPjz2q,
 The Plagues,Ralph Fiennes,3pZ60MK5NPuXtBVJx1OkbN,,2025-06-03T20:45:28.025Z,2025-06-03,160440,02:40,17:42:48,17:45:28,spotify:track:3buDoGEwFbwS8ozgA5o3lA,
 I'm on My Way,The Proclaimers,1A92IAcd7A6npCA33oGM5i,,2025-06-03T19:48:39.990Z,2025-06-03,225586,03:45,16:44:54,16:48:39,spotify:track:1HuAR7RyNWQq6vHwOFHWqx,
 Daydream In Blue,I Monster,1CcPlAmcnJjC4FnaPVzv2v,,2025-06-03T18:14:23.175Z,2025-06-03,223666,03:43,15:10:40,15:14:23,spotify:track:5cjaDxaXyRlxGgGjRlte7m,
@@ -56,6 +56,7 @@ Say It Right,Nelly Furtado,2jw70GZXlAI8QzWeY2bgRc,,2025-06-03T18:00:24.447Z,2025
 Tripping,Robbie Williams,2HcwFjNelS49kFbfvMxQYw,,2025-06-03T17:25:58.435Z,2025-06-03,276603,04:36,14:21:22,14:25:58,spotify:track:7MTdv6v3vsmQcVfh7eIaks,
 Me and the Devil,Soap&Skin,2mAYpnSe3g2Y22JcZ2ddku,,2025-06-03T01:35:12.344Z,2025-06-02,185000,03:05,22:32:07,22:35:12,spotify:track:0wrWxW18WK2MkrfDpRHkyh,
 Save Me,Remy Zero,2pZCKLhbrrDD4PwEzrDig3,,2025-06-03T01:24:08.971Z,2025-06-02,239133,03:59,22:20:09,22:24:08,spotify:track:4pkFvX3AkuiSGPkv8gMlks,
+Urd Skuld og Verdande,Vǫluspá,04sNuGpenIU7aYWLTycRN7,"celtic, folk metal",2025-06-02T19:16:19.468Z,2025-06-02,136040,02:16,16:14:03,16:16:19,spotify:track:1cDK2Zkxx0Cx9Y8YsPjz2q,
 Farvel min venn,Vǫluspá,04sNuGpenIU7aYWLTycRN7,"celtic, folk metal",2025-06-02T19:14:03.201Z,2025-06-02,171120,02:51,16:11:12,16:14:03,spotify:track:4m1cvJpTZOLsbFf6rG7Rt3,
 Mareridt,Myrkur,3544ImlskUwZqWJTmqWUsa,"folk metal, black metal, celtic",2025-06-02T19:11:11.091Z,2025-06-02,203631,03:23,16:07:48,16:11:11,spotify:track:5ErGc51SWCg6C6pvSJxzNg,
 House Carpenter,Myrkur,3544ImlskUwZqWJTmqWUsa,"folk metal, black metal, celtic",2025-06-02T14:31:35.816Z,2025-06-02,218111,03:38,11:27:57,11:31:35,spotify:track:2reP1SrOvXsViM6eeLqZmA,

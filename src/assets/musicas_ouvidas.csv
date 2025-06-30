@@ -1,4 +1,5 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+Gimme More,Britney Spears,26dSoYclwsYLMAKD3tpOr4,pop,2025-06-30T12:34:14.307Z,2025-06-30,251240,04:11,09:30:03,09:34:14,spotify:track:6ic8OlLUNEATToEFU3xmaH,
 Payphone,Maroon 5,04gDigrS5kc9YWfZHwBETP,pop,2025-06-30T03:35:51.313Z,2025-06-30,231173,03:51,00:32:00,00:35:51,spotify:track:1XGmzt0PVuFgQYYnV2It7A,
 Something Just Like This,The Chainsmokers,69GGBxA162lTqCwzJG5jLp,,2025-06-30T03:32:00.162Z,2025-06-30,247160,04:07,00:27:53,00:32:00,spotify:track:6RUKPb4LETWmmr3iAEQktW,
 Applause,Lady Gaga,1HY2Jd0NmPuamShAr6KMms,"art pop, pop",2025-06-30T03:27:51.932Z,2025-06-30,212333,03:32,00:24:19,00:27:51,spotify:track:5ka2ajep9OAvU5Sgduhiex,
@@ -48,7 +49,6 @@ Alive - Pt. II,Darkwater,3VFAEJuUQ6rHfKT9qlZ3Zq,"progressive metal, progressive 
 Watch the World Collapse,Borealis,3WorcXKb2PFutcaYEFjBWq,"power metal, progressive metal, symphonic metal",2025-06-27T23:57:29.882Z,2025-06-27,244093,04:04,20:53:25,20:57:29,spotify:track:5OOoltzIUaiTKV7jjAusvP,
 What Will You Say,Redemption,3TZpN3GTy0RL1i6Pb10IRS,"progressive metal, progressive rock, power metal",2025-06-27T23:53:25.148Z,2025-06-27,320013,05:20,20:48:05,20:53:25,spotify:track:3hTaxj8jGy2k5JcQsLqujy,
 Vision 11even * in My Universe,Vanden Plas,1ke5Q2ijh6Tm31kH2HELEe,"progressive metal, progressive rock, power metal, medieval metal",2025-06-27T23:48:04.699Z,2025-06-27,385906,06:25,20:41:39,20:48:04,spotify:track:6Wn3oywOi6IaUDsNP2nCDk,
-How Many Tears - Live,Vanden Plas,1ke5Q2ijh6Tm31kH2HELEe,"progressive metal, progressive rock, power metal, medieval metal",2025-06-27T23:41:37.692Z,2025-06-27,616426,10:16,20:31:21,20:41:37,spotify:track:5aPbzaT8sRmPOa4BJfKZ7c,
 Something Just Like This,The Chainsmokers,69GGBxA162lTqCwzJG5jLp,,2025-06-30T03:32:00.162Z,2025-06-30,247160,04:07,00:27:53,00:32:00,spotify:track:6RUKPb4LETWmmr3iAEQktW,
 Viva La Vida,Coldplay,4gzpq5DPGxSnKTe4SA8HAU,,2025-06-30T03:24:20.276Z,2025-06-30,242373,04:02,00:20:18,00:24:20,spotify:track:1mea3bSkSGXuIRvnydlB5b,
 lovely (with Khalid),Billie Eilish,6qqNVTkY8uBg9cP3Jd7DAH,,2025-06-30T03:20:16.830Z,2025-06-30,200185,03:20,00:16:56,00:20:16,spotify:track:0u2P5u6lvoDfwTYjAADbn4,
@@ -57,6 +57,7 @@ Paradise,Coldplay,4gzpq5DPGxSnKTe4SA8HAU,,2025-06-30T03:02:25.528Z,2025-06-30,27
 Day 'n' Nite,Kid Cudi,0fA0VVWsXO9YnASrzqfmYu,,2025-06-30T02:57:46.429Z,2025-06-29,222066,03:42,23:54:04,23:57:46,spotify:track:4ywmyUAQ0WAdNHXpoWWqfv,
 Demons,Imagine Dragons,53XhwfbYqKCa1cC15pYq2q,,2025-06-30T02:42:54.364Z,2025-06-29,177506,02:57,23:39:57,23:42:54,spotify:track:5qaEfEh1AtSdrdrByCP7qR,
 Voyage voyage,Desireless,1yjAx9cww4f1QuAaN3dUI2,,2025-06-29T16:00:48.941Z,2025-06-29,266600,04:26,12:56:22,13:00:48,spotify:track:2d8D7uk3tbAThjRkdfrx9c,
+How Many Tears - Live,Vanden Plas,1ke5Q2ijh6Tm31kH2HELEe,"progressive metal, progressive rock, power metal, medieval metal",2025-06-27T23:41:37.692Z,2025-06-27,616426,10:16,20:31:21,20:41:37,spotify:track:5aPbzaT8sRmPOa4BJfKZ7c,
 Son of the Staves of Time,Therion,5c8Cw62ZYj9XO6iDLRDEsi,"symphonic metal, gothic metal, power metal, metal, death metal, folk metal, progressive metal, doom metal",2025-06-27T22:55:05.735Z,2025-06-27,287706,04:47,19:50:18,19:55:05,spotify:track:269HuJo4hRBp2noWv9n1k5,
 Stellar Tombs,Draconian,1TX9g1uSl0B0DQIE9lBqmU,"gothic metal, doom metal, symphonic metal, melodic death metal, gothic rock",2025-06-27T22:40:53.604Z,2025-06-27,362346,06:02,19:34:51,19:40:53,spotify:track:5ufXWfJYuflijkhLVyRzgr,
 Into the Night,Sirenia,5FXMcILCOMjljRTV6cLoiE,"symphonic metal, gothic metal, gothic rock, power metal, metal",2025-06-27T22:34:50.825Z,2025-06-27,280560,04:40,19:30:10,19:34:50,spotify:track:24jNJuVUqfVmjGYrxDuB3a,

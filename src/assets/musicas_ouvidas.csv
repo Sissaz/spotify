@@ -1,4 +1,5 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+Judas,Lady Gaga,1HY2Jd0NmPuamShAr6KMms,"art pop, pop",2025-08-13T12:01:45.820Z,2025-08-13,249066,04:09,08:57:36,09:01:45,spotify:track:7F25roCtYi55JouckaayPC,
 Beautiful People,David Guetta,1Cs0zKBU1kc0i8ypK3B9ai,"edm, dance",2025-08-12T22:23:00.282Z,2025-08-12,187086,03:07,19:19:53,19:23:00,spotify:track:4TwEdnSiTPDR1vg1QZ5K8W,
 The Seed,AURORA,1WgXqy2Dd70QQOU7Ay074N,"norwegian pop, art pop",2025-08-12T22:19:53.203Z,2025-08-12,266969,04:26,19:15:27,19:19:53,spotify:track:16tvIGzCNfRLVbm8G39DDo,
 Up From the Bottom,Linkin Park,6XyY86QOPPrYVGvF9ch6wz,"nu metal, rap metal, rock, alternative metal",2025-08-12T22:15:24.793Z,2025-08-12,183223,03:03,19:12:21,19:15:24,spotify:track:2SwdMXPvGdciXamSjfoNH9,
@@ -48,7 +49,6 @@ Loves Me Not,t.A.T.u.,2Q3eZMfDQgT8MhPowKFXYO,,2025-08-06T01:10:43.113Z,2025-08-0
 Cosmos (Outer Space),t.A.T.u.,2Q3eZMfDQgT8MhPowKFXYO,,2025-08-06T01:07:47.111Z,2025-08-05,251973,04:11,22:03:36,22:07:47,spotify:track:6dAagCDnDL2WPa4xtNx8qk,
 All About Us,t.A.T.u.,2Q3eZMfDQgT8MhPowKFXYO,,2025-08-06T01:03:35Z,2025-08-05,180960,03:00,22:00:35,22:03:35,spotify:track:3PRGcLvFKBGcG5LMer7rn7,
 Зачем я,t.A.T.u.,2Q3eZMfDQgT8MhPowKFXYO,,2025-08-06T01:00:33.686Z,2025-08-05,246000,04:06,21:56:27,22:00:33,spotify:track:4bG2GrPzfckknfRNXhoPSr,
-Я сошла с ума,t.A.T.u.,2Q3eZMfDQgT8MhPowKFXYO,,2025-08-06T00:56:26.971Z,2025-08-05,209013,03:29,21:52:57,21:56:26,spotify:track:00fEaKXDScWhQDjzSXfSqm,
 You and I,t.A.T.u.,2Q3eZMfDQgT8MhPowKFXYO,,2025-08-12T14:35:53.675Z,2025-08-12,196333,03:16,11:32:37,11:35:53,spotify:track:4eRLK1vLJxTWL5UZMiNIfD,
 You and I,t.A.T.u.,2Q3eZMfDQgT8MhPowKFXYO,,2025-08-12T12:30:18.867Z,2025-08-12,196333,03:16,09:27:02,09:30:18,spotify:track:4eRLK1vLJxTWL5UZMiNIfD,
 Never Forget,Lena Katina,5RfS9o5FOLPdO77H58h3oA,,2025-08-11T14:46:10.318Z,2025-08-11,214800,03:34,11:42:36,11:46:10,spotify:track:2w3K2Hfg0T4G2ppneaWkSQ,

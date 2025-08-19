@@ -1,4 +1,5 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+The Sadness In Everything,Lord Of The Lost,28eLrVsohdXynlnIzQ2VvI,"gothic metal, industrial metal, gothic rock, medieval metal, industrial, industrial rock",2025-08-19T12:09:49.553Z,2025-08-19,204588,03:24,09:06:25,09:09:49,spotify:track:4sQGeeYk0GKqJUVBilBqBI,
 The Rune (2025),Týr,6TmGNPW2oDM5uaXBILozGa,"folk metal, power metal, metal, medieval metal",2025-08-18T21:42:27.914Z,2025-08-18,406269,06:46,18:35:41,18:42:27,spotify:track:5k6LqI2iBDkVQa3gixPB7S,
 The Rune (2025),Týr,6TmGNPW2oDM5uaXBILozGa,"folk metal, power metal, metal, medieval metal",2025-08-18T21:33:58.350Z,2025-08-18,406269,06:46,18:27:12,18:33:58,spotify:track:5k6LqI2iBDkVQa3gixPB7S,
 Essa Tal Liberdade / É Tarde Demais / Sentimento Nú / 40 Graus de Amor - Ao Vivo,Vou Zuar,5x2zeeLVXEDaMHRaRmH3FD,"pagode, samba",2025-08-18T02:12:07.940Z,2025-08-17,444330,07:24,23:04:43,23:12:07,spotify:track:1csQHYgxEJFIVFJ6cQ3TVk,
@@ -48,7 +49,6 @@ Beautiful People,David Guetta,1Cs0zKBU1kc0i8ypK3B9ai,"edm, dance",2025-08-12T22:
 The Seed,AURORA,1WgXqy2Dd70QQOU7Ay074N,"norwegian pop, art pop",2025-08-12T22:19:53.203Z,2025-08-12,266969,04:26,19:15:27,19:19:53,spotify:track:16tvIGzCNfRLVbm8G39DDo,
 Up From the Bottom,Linkin Park,6XyY86QOPPrYVGvF9ch6wz,"nu metal, rap metal, rock, alternative metal",2025-08-12T22:15:24.793Z,2025-08-12,183223,03:03,19:12:21,19:15:24,spotify:track:2SwdMXPvGdciXamSjfoNH9,
 Circus,Britney Spears,26dSoYclwsYLMAKD3tpOr4,pop,2025-08-12T22:12:21.205Z,2025-08-12,192360,03:12,19:09:09,19:12:21,spotify:track:7jk7gqyEonmVVYahZN5zhW,
-Garden Of Eden,Lady Gaga,1HY2Jd0NmPuamShAr6KMms,"art pop, pop",2025-08-12T22:09:08.529Z,2025-08-12,239720,03:59,19:05:09,19:09:08,spotify:track:4mUR5Tv0CvJtpmnUtzeIgd,
 Addormentarsi,Natural Sample Makers,2kAU05Lt29wxhRj3BpiwhA,,2025-08-17T15:31:48.482Z,2025-08-17,150836,02:30,12:29:18,12:31:48,spotify:track:5CJwgyuXlhfXiZzJI53BUw,
 Every Night White Noise,The Noisy Outdoors,6ipASreqbHk6a7aR2xo9BW,,2025-08-17T13:03:07.629Z,2025-08-17,161999,02:41,10:00:26,10:03:07,spotify:track:5nMbf1TCIXxtgWjcCT7pzs,
 Headshots (4r da Locals),Isaiah Rashad,6aaMZ3fcfLv4tEbmY7bjRM,,2025-08-16T01:12:43.743Z,2025-08-15,193208,03:13,22:09:30,22:12:43,spotify:track:0xta6Gah3inmeHbj0e3F9a,
@@ -64,6 +64,7 @@ Starboy,The Weeknd,1Xyo4u8uXC1ZmMpatF05PJ,,2025-08-16T00:25:22.209Z,2025-08-15,2
 Maneater,Nelly Furtado,2jw70GZXlAI8QzWeY2bgRc,,2025-08-16T00:21:30.918Z,2025-08-15,258893,04:18,21:17:12,21:21:30,spotify:track:4wH4dJgrsxONID6KS2tDQM,
 SexyBack (feat. Timbaland),Justin Timberlake,31TPClRtHm23RisEBtV3X7,,2025-08-16T00:03:19.913Z,2025-08-15,242733,04:02,20:59:17,21:03:19,spotify:track:0O45fw2L5vsWpdsOdXwNAR,
 Chicago,Michael Jackson,3fMbdgg4jU18AjLCKBhRSm,,2025-08-15T23:55:45.984Z,2025-08-15,245506,04:05,20:51:40,20:55:45,spotify:track:5BKKy9fIJL5uM9fz1SnqyP,
+Garden Of Eden,Lady Gaga,1HY2Jd0NmPuamShAr6KMms,"art pop, pop",2025-08-12T22:09:08.529Z,2025-08-12,239720,03:59,19:05:09,19:09:08,spotify:track:4mUR5Tv0CvJtpmnUtzeIgd,
 Abracadabra,Lady Gaga,1HY2Jd0NmPuamShAr6KMms,"art pop, pop",2025-08-12T22:05:07.918Z,2025-08-12,223398,03:43,19:01:24,19:05:07,spotify:track:5ZLUm9eab8y3tqQ1OhQSHI,
 Sister Golden Hair,America,35U9lQaRWSQISxQAB94Meo,"yacht rock, soft rock, folk rock",2025-08-12T21:59:43.111Z,2025-08-12,199573,03:19,18:56:24,18:59:43,spotify:track:5VSAonaAPhhGn0G7hMYwWK,
 House of the Rising Sun,The Animals,3ICflSq6ZgYAIrm2CTkfVP,classic rock,2025-08-12T21:54:20.158Z,2025-08-12,269906,04:29,18:49:51,18:54:20,spotify:track:4mn2kNTqiGLwaUR8JdhJ1l,

@@ -1,4 +1,5 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+Agora Hills,Doja Cat,5cj0lLjcoR7YOSnhnX0Po5,,2025-08-26T12:00:24.686Z,2025-08-26,265360,04:25,08:55:59,09:00:24,spotify:track:5PyDJG7SQRgWXefgexqIge,
 Toxic,Britney Spears,26dSoYclwsYLMAKD3tpOr4,pop,2025-08-25T23:35:06.658Z,2025-08-25,198800,03:18,20:31:48,20:35:06,spotify:track:6I9VzXrHxO9rA9A5euc8Ak,
 Hush,The Marías,2sSGPbdZJkaSE2AbcGOACx,bedroom pop,2025-08-25T23:31:29.223Z,2025-08-25,181893,03:01,20:28:28,20:31:29,spotify:track:4zXZ5Mq2L6jnsOsTssgRh8,
 Daddy Issues,The Neighbourhood,77SW9BnxLY8rJ0RciFqkHh,,2025-08-25T23:28:25.343Z,2025-08-25,260173,04:20,20:24:05,20:28:25,spotify:track:5E30LdtzQTGqRvNd7l6kG5,
@@ -48,7 +49,6 @@ The Sacrilegious Mind Machine,Vanden Plas,1ke5Q2ijh6Tm31kH2HELEe,"progressive me
 Simple Man,Lynyrd Skynyrd,4MVyzYMgTwdP7Z49wAZHx0,"southern rock, classic rock, rock",2025-08-25T20:41:43.631Z,2025-08-25,356626,05:56,17:35:47,17:41:43,spotify:track:1ju7EsSGvRybSNEsRvc7qY,
 The Ensemble of Silence,Empyrium,4zDkgQanNydhYIqQwQK9Ct,"doom metal, folk metal, gothic metal, ambient folk",2025-08-25T19:42:44.873Z,2025-08-25,595000,09:55,16:32:49,16:42:44,spotify:track:65L3aV8lLBhegNBoAszqyp,
 Mea Culpa - a-capella version,After Forever,6ISyfZw4EVt16zhmH2lvxp,"symphonic metal, gothic metal, power metal, gothic rock, metal",2025-08-25T19:31:52.133Z,2025-08-25,110706,01:50,16:30:02,16:31:52,spotify:track:0UQmY9HX0ptC82h5gF1FKc,
-Just A Lil Bit,50 Cent,3q7HBObVc0L8jNeTe5Gofh,"east coast hip hop, old school hip hop",2025-08-25T19:31:08.449Z,2025-08-25,237706,03:57,16:27:11,16:31:08,spotify:track:4nva9EpKntUTs6CRSGBCn9,
 Daddy Issues,The Neighbourhood,77SW9BnxLY8rJ0RciFqkHh,,2025-08-25T23:28:25.343Z,2025-08-25,260173,04:20,20:24:05,20:28:25,spotify:track:5E30LdtzQTGqRvNd7l6kG5,
 SexyBack (feat. Timbaland),Justin Timberlake,31TPClRtHm23RisEBtV3X7,,2025-08-25T23:24:14.197Z,2025-08-25,242733,04:02,20:20:12,20:24:14,spotify:track:0O45fw2L5vsWpdsOdXwNAR,
 So High,Doja Cat,5cj0lLjcoR7YOSnhnX0Po5,,2025-08-25T23:19:50.906Z,2025-08-25,201573,03:21,20:16:29,20:19:50,spotify:track:2qyhy9ndo8tTGMzXeHTisR,
@@ -79,6 +79,7 @@ S.O.S d'un terrien en détresse,Dimash Qudaibergen,5AWgF8Ghqm94WZ4GxCt8K5,,2025-
 Oceans Apart,Ben Crosland,5uNm1FvRSh2IcPNDGQChtr,,2025-08-25T20:59:18.122Z,2025-08-25,78413,01:18,17:58:00,17:59:18,spotify:track:1yqM5O07lL7R6UAdK5jvrR,
 i'm yours sped up,Isabel LaRosa,5arKwJZEvT5uKq4o0JfqR4,,2025-08-25T20:59:04.099Z,2025-08-25,127780,02:07,17:56:57,17:59:04,spotify:track:4sFGNz4MYpGoz53ZGCwsiE,
 The Ecstasy Of Gold - 2004 Remaster,Ennio Morricone,1nIUhcKHnK6iyumRyoV68C,,2025-08-25T20:58:40.835Z,2025-08-25,203226,03:23,17:55:17,17:58:40,spotify:track:6PrKZUXJPmBiobMN44yR8Y,
+Just A Lil Bit,50 Cent,3q7HBObVc0L8jNeTe5Gofh,"east coast hip hop, old school hip hop",2025-08-25T19:31:08.449Z,2025-08-25,237706,03:57,16:27:11,16:31:08,spotify:track:4nva9EpKntUTs6CRSGBCn9,
 Soldier of Fortune,Opeth,0ybFZ2Ab08V8hueghSXm6E,"progressive metal, progressive rock, metal, death metal, melodic death metal",2025-08-25T18:13:06.945Z,2025-08-25,208520,03:28,15:09:38,15:13:06,spotify:track:0TN3CFZuYzAWQCV9N3pVPN,
 eyes don't lie,Isabel LaRosa,5arKwJZEvT5uKq4o0JfqR4,,2025-08-25T18:09:38.065Z,2025-08-25,150720,02:30,15:07:08,15:09:38,spotify:track:2GWCZJWundoYi5IloWIgTX,
 Siren,Theatre Of Tragedy,31eXqCx5cAlItdGdoHMEOu,"gothic metal, symphonic metal, doom metal, gothic rock",2025-08-25T18:07:06.708Z,2025-08-25,450960,07:30,14:59:36,15:07:06,spotify:track:5XnHRKpIuL902a4n0JqoZ0,

@@ -1,4 +1,5 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+"Across the Stars (Love Theme from ""Star Wars: Attack of the Clones"")",John Williams,3dRfiJ2650SZu6GbydcHNb,soundtrack,2025-10-26T16:30:29.224Z,2025-10-26,333346,05:33,13:24:56,13:30:29,spotify:track:3rUMH7i22tlkymhDPOmXUv,
 Sleepsong,Rolf Løvland,0V0TbicIQ6nqAWy13mR4BH,opera,2025-10-26T01:54:40.533Z,2025-10-25,291106,04:51,22:49:49,22:54:40,spotify:track:4G3tv0qZ4W20ZOvOb02o4P,
 Death Of The First Born,Hans Zimmer,0YC192cP3KPCRWx8zr8MfZ,soundtrack,2025-10-26T01:49:41.513Z,2025-10-25,67693,01:07,22:48:34,22:49:41,spotify:track:6mbbWBNf4GmJAp0OElsShF,
 Angel Of Music - From 'The Phantom Of The Opera' Motion Picture,Andrew Lloyd Webber,4aP1lp10BRYZO658B2NwkG,musicals,2025-10-26T01:48:33.910Z,2025-10-25,163666,02:43,22:45:50,22:48:33,spotify:track:5o0xOQhYxr3KqYn4cRE6Ed,
@@ -48,7 +49,6 @@ Power Up,Babalos,5H3KwpWuO5LUilDEdc0t9W,"psytrance, trance",2025-10-24T20:37:56.
 Sem Chão,Mandragora,2AasvmwafZPTgQANaoLoQY,"psytrance, trance, progressive trance",2025-10-24T20:30:02.915Z,2025-10-24,247022,04:07,17:25:55,17:30:02,spotify:track:5irKKFoCUyKFq8rvtSBIYM,
 Snow Crystal,Babalos,5H3KwpWuO5LUilDEdc0t9W,"psytrance, trance",2025-10-24T20:25:55.032Z,2025-10-24,331062,05:31,17:20:24,17:25:55,spotify:track:4FaSg6ZYnYOZNAhlIJdndm,
 Don't You Cry,Kamelot,7gTbq5nTZGQIUgjEGXQpOS,"power metal, symphonic metal, gothic metal, progressive metal, metal, speed metal, folk metal",2025-10-24T20:16:48.405Z,2025-10-24,254533,04:14,17:12:34,17:16:48,spotify:track:0KK79BajZpKLFHkRgWX7u7,
-The Rains of Castamere,Ramin Djawadi,1hCkSJcXREhrodeIHQdav8,soundtrack,2025-10-24T20:12:33.343Z,2025-10-24,224305,03:44,17:08:49,17:12:33,spotify:track:0CHvs1UmxA90B2apIpbWCC,
 Heaven's Light/Hellfire,Tony Jay,5qQpn0ZokyamZjyKtkKUYD,,2025-10-26T01:45:49.407Z,2025-10-25,323613,05:23,22:40:26,22:45:49,spotify:track:4rp9YObc6Q5xc6X1S8c7m9,
 "You'll Be In My Heart - From ""Tarzan""/Soundtrack Version",Glenn Close,5gYZraqDisF60MICASfpWe,,2025-10-26T01:37:06.309Z,2025-10-25,96533,01:36,22:35:30,22:37:06,spotify:track:74kiwnSuxmLFyvsGMnD9ww,
 All I Ever Wanted (With Queen's Reprise),Amick Byram,5u8DpbZw3VJlB1lKmJke6g,,2025-10-26T01:31:15.144Z,2025-10-25,171600,02:51,22:28:24,22:31:15,spotify:track:5lbZL5xmyJHtrrioldEyXX,
@@ -57,6 +57,7 @@ Listen With Your Heart - Pt. 2,Linda Hunt,10Bv2xvDaWSDV40nujK56o,,2025-10-26T01:
 Misty Mountains,Richard Armitage,6DQsmplq17UDA3zmiybbSb,,2025-10-26T00:44:18.521Z,2025-10-25,103024,01:43,21:42:35,21:44:18,spotify:track:3AAwJ043uT1wXSKDtGyuxF,
 "Once Upon a Dream - From ""Maleficent"" / Pop Version",Lana Del Rey,00FQb4jTyendYWaN8pK0wa,,2025-10-26T00:43:03.036Z,2025-10-25,203080,03:23,21:39:40,21:43:03,spotify:track:3liiZRlJxa8GeLUgWMoIeu,
 The Plagues,Ralph Fiennes,3pZ60MK5NPuXtBVJx1OkbN,,2025-10-26T00:33:23.785Z,2025-10-25,160440,02:40,21:30:43,21:33:23,spotify:track:3buDoGEwFbwS8ozgA5o3lA,
+The Rains of Castamere,Ramin Djawadi,1hCkSJcXREhrodeIHQdav8,soundtrack,2025-10-24T20:12:33.343Z,2025-10-24,224305,03:44,17:08:49,17:12:33,spotify:track:0CHvs1UmxA90B2apIpbWCC,
 I Will Remember - Remastered,Queensrÿche,2OgUPVlWYgGBGMefZgGvCO,"progressive metal, glam metal, metal, heavy metal, progressive rock, hard rock",2025-10-24T20:08:48.653Z,2025-10-24,278200,04:38,17:04:10,17:08:48,spotify:track:2a3AywJ9UUwws73WLguDzd,
 Lethean River,Tristania,2EOmvmVtYMTgn45w9mWUTV,"gothic metal, symphonic metal, doom metal, gothic rock",2025-10-24T20:04:09.576Z,2025-10-24,356893,05:56,16:58:13,17:04:09,spotify:track:1Tg8oPg7MZI6mXq4blpZyU,
 Ulvsblakk,Ulver,6bYFkBNvayh3nGqxcPp7Sv,"black metal, avant-garde, drone metal, folk metal",2025-10-24T19:58:12.611Z,2025-10-24,416156,06:56,16:51:16,16:58:12,spotify:track:7m4Z1nsSHc55wGVC0Go3iQ,

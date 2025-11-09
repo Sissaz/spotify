@@ -1,4 +1,5 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+Walk,Pantera,14pVkFUHDL207LzLHtSA18,"groove metal, metal, thrash metal, heavy metal",2025-11-08T23:51:56.050Z,2025-11-08,315120,05:15,20:46:41,20:51:56,spotify:track:7fcfNW0XxTWlwVlftzfDOR,
 Moonlight Sonata 1st Movement,Ludwig van Beethoven,2wOqMjp9TyABvtHdOSOTUS,"classical, classical piano, chamber music",2025-11-08T03:14:44.906Z,2025-11-08,367585,06:07,00:08:37,00:14:44,spotify:track:3ilnnpmMMpp863r2X0EHQK,
 In a Deeper World,Borknagar,0vxxsjcDy61x5zvrOqwHIL,"black metal, folk metal, progressive metal, metal, melodic death metal, avant-garde",2025-11-08T02:32:08.186Z,2025-11-07,339853,05:39,23:26:29,23:32:08,spotify:track:4RPI9Spk3b15HqKsKktVJq,
 The 12th Hour,Sirenia,5FXMcILCOMjljRTV6cLoiE,"symphonic metal, gothic metal, gothic rock, power metal, metal",2025-11-08T02:26:27.717Z,2025-11-07,396920,06:36,23:19:51,23:26:27,spotify:track:0Dc42KTCfINMQT24tnbcxA,
@@ -48,7 +49,6 @@ Come Night I Reign,Lake Of Tears,13ltbymjg9upz4wOoF5TTs,"gothic metal, doom meta
 The Beauty in Black,Therion,5c8Cw62ZYj9XO6iDLRDEsi,"symphonic metal, gothic metal, power metal, metal, folk metal, death metal, doom metal, progressive metal",2025-11-07T04:15:31.548Z,2025-11-07,192906,03:12,01:12:19,01:15:31,spotify:track:51RlUEHxhyPzYZPu7K24A7,
 Desolation,Midnattsol,3HND3tDShGgRZ0dVkiCl5e,"gothic metal, symphonic metal, folk metal",2025-11-07T04:12:18.192Z,2025-11-07,262173,04:22,01:07:56,01:12:18,spotify:track:5g0nKL1VX1yQgEoRO5lq6L,
 A Forest of Disenchantments,Mist of Misery,5hFKdxBWpediNBvDJtzHOS,black metal,2025-11-07T04:07:55.356Z,2025-11-07,241853,04:01,01:03:54,01:07:55,spotify:track:6w7uZhBkzBc3I8STolo0MB,
-Velvet Eyes,Mandragora Scream,1AYR9Ow3g2tzBY9mQYCZUv,"gothic metal, symphonic metal, gothic rock, doom metal",2025-11-07T04:03:53.230Z,2025-11-07,252910,04:12,00:59:41,01:03:53,spotify:track:0YS8fIElKIKgcEjHoPuFQH,
 The Benoni,Joshua Kyan Aalampour,7A3EfKcEMZeHldRMXJmB45,,2025-11-08T02:18:24.228Z,2025-11-07,107012,01:47,23:16:37,23:18:24,spotify:track:1Ue1yot8N3xdxCblpkuyec,
 Idea 10,Gibran Alcocer,5nWYvcpaqKtp08cYxjOfFr,,2025-11-08T02:13:44.190Z,2025-11-07,128000,02:08,23:11:36,23:13:44,spotify:track:1lb3H41lbvAN28N7yqRNL9,
 I Love You When I Drink Champagne,Eric Christian,4OtI2uu9b2M9ST39SSXezO,,2025-11-08T02:11:35.689Z,2025-11-07,152833,02:32,23:09:03,23:11:35,spotify:track:2vZUbiX6DJDgCgz3olOAKM,
@@ -66,6 +66,7 @@ A Fragment of My Soul,Invadable Harmony,0dOsUmRuQ52Tp8sEG10vjt,,2025-11-08T01:22
 Enemies to Lovers,Joshua Kyan Aalampour,7A3EfKcEMZeHldRMXJmB45,,2025-11-08T01:12:51.711Z,2025-11-07,225177,03:45,22:09:06,22:12:51,spotify:track:4beiCk8MyUZKJk4QWROaor,
 Valse Sentimentale No. 2 in G Minor,Eric Christian,4OtI2uu9b2M9ST39SSXezO,,2025-11-08T00:56:53.709Z,2025-11-07,227369,03:47,21:53:06,21:56:53,spotify:track:2FHiDX6Rde40f2ZzcbVdPo,
 Van Gogh,Virginio Aiello,2rT3EQUN0gsGe8Xb8XKIjo,,2025-11-08T00:52:35.791Z,2025-11-07,183083,03:03,21:49:32,21:52:35,spotify:track:2vCGb0Sr5ismOhXPliKLRW,
+Velvet Eyes,Mandragora Scream,1AYR9Ow3g2tzBY9mQYCZUv,"gothic metal, symphonic metal, gothic rock, doom metal",2025-11-07T04:03:53.230Z,2025-11-07,252910,04:12,00:59:41,01:03:53,spotify:track:0YS8fIElKIKgcEjHoPuFQH,
 Deadland,Theatre Of Tragedy,31eXqCx5cAlItdGdoHMEOu,"gothic metal, symphonic metal, doom metal, gothic rock",2025-11-07T03:59:39.769Z,2025-11-07,280493,04:40,00:54:59,00:59:39,spotify:track:2lNi4IJPeEyei3P9qxuKUg,
 Waiting Counting,Lake Of Tears,13ltbymjg9upz4wOoF5TTs,"gothic metal, doom metal, gothic rock",2025-11-07T03:54:58.638Z,2025-11-07,279133,04:39,00:50:19,00:54:58,spotify:track:7wBsT20PCMyTLRjMTuS1sQ,
 Metamorphia,Domina Noctis,1AWyYiC8CyNDqfNAQeoG6Q,"symphonic metal, gothic metal, gothic rock",2025-11-07T03:50:18.873Z,2025-11-07,214073,03:34,00:46:44,00:50:18,spotify:track:6NISKaNxrozd772i9Vx9Iw,

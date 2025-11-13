@@ -1,4 +1,5 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+Phantom of the Opera - Live,Nightwish,2NPduAUeLVsfIauhRwuft1,"symphonic metal, gothic metal, power metal, metal, folk metal, gothic rock",2025-11-12T23:16:11.346Z,2025-11-12,311640,05:11,20:11:00,20:16:11,spotify:track:2iH8zISaFpIntUguFFvEJc,
 Sweet Venom (English Ver.),ENHYPEN,5t5FqBwTcgKTaWmfEbwQY9,k-pop,2025-11-11T23:23:34.416Z,2025-11-11,148753,02:28,20:21:06,20:23:34,spotify:track:47JqJobasbTT9r0gX8CoE1,
 Let Me Die,Lil Happy Lil Sad,0r25HIHVcGcaEuJ8s5AK00,emo rap,2025-11-11T22:28:42.996Z,2025-11-11,218775,03:38,19:25:04,19:28:42,spotify:track:46T7puWlH8ptC6lx7bQ3TY,
 Mammagamma,The Alan Parsons Project,2m62cc253Xvd9qYQ8d2X3d,"progressive rock, classic rock",2025-11-11T22:28:12.009Z,2025-11-11,213893,03:33,19:24:39,19:28:12,spotify:track:2H2riBoltlfKrU7i495hvf,
@@ -42,7 +43,6 @@ Lacrimosa,Zbigniew Preisner,3gGbSXSwHWmrUBIG9IUAau,requiem,2025-11-10T19:01:21.1
 Bring Forth Ye Shadow,Theatre Of Tragedy,31eXqCx5cAlItdGdoHMEOu,"gothic metal, symphonic metal, doom metal, gothic rock",2025-11-10T12:22:23.552Z,2025-11-10,408960,06:48,09:15:35,09:22:23,spotify:track:30Uer0M1IpdYJ20KdhH6A1,
 Odal,Wardruna,0NJ6wlOAsAJ1PN4VRdTPKA,"ambient folk, celtic, medieval, folk metal, folk",2025-11-10T03:00:42.832Z,2025-11-10,329786,05:29,23:55:13,00:00:42,spotify:track:7Jx27VqVQfeDkCROkOxgNZ,
 Svanrand,Heilung,7sTKZr30LqC928DZ5P9mNQ,"folk metal, celtic, ambient folk, medieval",2025-11-10T02:55:12.487Z,2025-11-09,216173,03:36,23:51:36,23:55:12,spotify:track:0jd37M3in0JOTz9DI4MiiB,
-Meridian,Sirenia,5FXMcILCOMjljRTV6cLoiE,"symphonic metal, gothic metal, gothic rock, power metal, metal",2025-11-10T02:51:36.051Z,2025-11-09,380200,06:20,23:45:16,23:51:36,spotify:track:2Sdh0wf8ic7hMuXAV54Ar7,
 Buttons,The Pussycat Dolls,6wPhSqRtPu1UhRCDX5yaDJ,,2025-11-11T22:25:50.861Z,2025-11-11,225560,03:45,19:22:05,19:25:50,spotify:track:314QzMOrpNUqWBUozYshf6,
 We Built This City,Starship,0kObWap02DEg9EAJ3PBxzf,,2025-11-11T22:25:46.124Z,2025-11-11,296080,04:56,19:20:50,19:25:46,spotify:track:6OnfBiiSc9RGKiBKKtZXgQ,
 Summer Wine,Megaraptor,1I98HSdBKIcRpCmd839ZyA,,2025-11-11T22:24:37.429Z,2025-11-11,245444,04:05,19:20:32,19:24:37,spotify:track:1FgRL0qBHeVu4iZnj3WP9r,
@@ -50,6 +50,7 @@ Save Me,Remy Zero,2pZCKLhbrrDD4PwEzrDig3,,2025-11-10T22:14:49.665Z,2025-11-10,23
 Summer Wine,Megaraptor,1I98HSdBKIcRpCmd839ZyA,,2025-11-10T22:10:29.772Z,2025-11-10,245444,04:05,19:06:24,19:10:29,spotify:track:1FgRL0qBHeVu4iZnj3WP9r,
 Grillz,Nelly,2gBjLmx6zQnFGQJCAQpRgw,,2025-11-10T22:10:16.233Z,2025-11-10,271160,04:31,19:05:45,19:10:16,spotify:track:6MyRJF1ttIyBTFLoqzCRwV,
 Radioactive,Imagine Dragons,53XhwfbYqKCa1cC15pYq2q,,2025-11-10T22:09:51.693Z,2025-11-10,186813,03:06,19:06:45,19:09:51,spotify:track:62yJjFtgkhUrXktIoSjgP2,
+Meridian,Sirenia,5FXMcILCOMjljRTV6cLoiE,"symphonic metal, gothic metal, gothic rock, power metal, metal",2025-11-10T02:51:36.051Z,2025-11-09,380200,06:20,23:45:16,23:51:36,spotify:track:2Sdh0wf8ic7hMuXAV54Ar7,
 Wölfe,Mantus,50CspSWbHQ8XLjQVW1nIW5,"medieval metal, gothic metal, gothic rock, ebm, darkwave, medieval, industrial, folk metal",2025-11-10T02:45:15.195Z,2025-11-09,245120,04:05,23:41:10,23:45:15,spotify:track:33hBF9HbiICnqK72xRtU84,
 4:00 AM,Avenged Sevenfold,0nmQIMXWTXfhgOBdNzhGOs,"metal, alternative metal",2025-11-10T02:41:10.986Z,2025-11-09,300692,05:00,23:36:10,23:41:10,spotify:track:0FbbrIn1qHZ1EJz58dQfXH,
 Fade,Theatre Of Tragedy,31eXqCx5cAlItdGdoHMEOu,"gothic metal, symphonic metal, doom metal, gothic rock",2025-11-10T02:36:09.561Z,2025-11-09,358200,05:58,23:30:11,23:36:09,spotify:track:7xWxiOuvwxUndfKprfGDyj,

@@ -1,4 +1,5 @@
 nome,artista,artist_id,generos,data_completa,data,duracao_ms,duracao_min,hora_inicio,hora_fim,spotify_track_uri,album_img
+Darker Thoughts,Paradise Lost,0gIo6kGl4KsCeIbqtZVHYp,"gothic metal, doom metal, gothic rock, sludge metal, metal, stoner metal",2025-12-01T12:14:30.454Z,2025-12-01,346266,05:46,09:08:44,09:14:30,spotify:track:1nQfHrwSC8XPlJHi8xpVjE,
 Venus,Theatre Of Tragedy,31eXqCx5cAlItdGdoHMEOu,"gothic metal, symphonic metal, doom metal, gothic rock",2025-11-30T19:58:29.325Z,2025-11-30,333000,05:33,16:52:56,16:58:29,spotify:track:2qURNRJHKUjc9aT398g0pf,
 The Waiting Game,Kalandra,2N0vFuOoMtAQfBmhsRo24e,,2025-11-30T19:52:48.968Z,2025-11-30,246176,04:06,16:48:42,16:52:48,spotify:track:2SZko1VlhvcECPO6mY8LPS,
 Cry Me A River,Julie London,3qUMmh5biaB5hqpF4LqS3m,"vocal jazz, jazz, adult standards",2025-11-30T19:48:44.763Z,2025-11-30,178573,02:58,16:45:46,16:48:44,spotify:track:7f6AAixCrVar1ZY7RPHDfM,
@@ -48,7 +49,6 @@ Shape Of My Heart,Sting,0Ty63ceoRnnJKVEYP0VQpk,soft rock,2025-11-30T15:13:33.676
 Rolling in the Deep,Adele,4dpARuHxo51G3z768sgnrY,soft pop,2025-11-30T15:08:51.284Z,2025-11-30,228093,03:48,12:05:03,12:08:51,spotify:track:1c8gk2PeTE04A1pIDH9YMk,
 Far From Any Road,The Handsome Family,72PnPUc1qv9UjRPaGVZ1jq,"southern gothic, alt country, americana",2025-11-30T15:05:03.900Z,2025-11-30,166493,02:46,12:02:17,12:05:03,spotify:track:3LDkLpuxQlEuEiZmkxpr8S,
 Forever Young,Alphaville,0xliTEbFfy5HQHvsTknTkX,synthpop,2025-11-30T15:02:15.461Z,2025-11-30,226706,03:46,11:58:29,12:02:15,spotify:track:4S1VYqwfkLit9mKVY3MXoo,
-Still Loving You,Scorpions,27T030eWyCQRmDyuvr1kxY,"hard rock, glam metal, rock",2025-11-30T14:58:57.641Z,2025-11-30,403453,06:43,11:52:14,11:58:57,spotify:track:0RdUX4WE0fO30VnlUbDVL6,
 The Waiting Game,Kalandra,2N0vFuOoMtAQfBmhsRo24e,,2025-11-30T19:52:48.968Z,2025-11-30,246176,04:06,16:48:42,16:52:48,spotify:track:2SZko1VlhvcECPO6mY8LPS,
 Whatever It Takes,Imagine Dragons,53XhwfbYqKCa1cC15pYq2q,,2025-11-30T19:45:42.741Z,2025-11-30,201240,03:21,16:42:21,16:45:42,spotify:track:6Qn5zhYkTa37e91HC1D7lb,
 Fire Of The Mind,Hexvessel,3rLgIB7dHh2MGYpiOMajJI,,2025-11-30T19:42:28.951Z,2025-11-30,191226,03:11,16:39:17,16:42:28,spotify:track:0PaEMYUwp1wK8utvozpaHU,
@@ -63,6 +63,7 @@ Cinnamon Girl,Lana Del Rey,00FQb4jTyendYWaN8pK0wa,,2025-11-30T15:41:43.877Z,2025
 The Night We Met,Lord Huron,6ltzsmQQbmdoHHbLZ4ZN25,,2025-11-30T15:24:40.316Z,2025-11-30,208211,03:28,12:21:12,12:24:40,spotify:track:3hRV0jL3vUpRrcy398teAU,
 Solitude - Felsmann + Tiley Reinterpretation,M83,63MQldklfxkjYDoUE4Tppz,,2025-11-30T15:21:10.639Z,2025-11-30,222354,03:42,12:17:28,12:21:10,spotify:track:6RK3IsiUW6YaSMEodbO4tk,
 Young And Beautiful,Lana Del Rey,00FQb4jTyendYWaN8pK0wa,,2025-11-30T15:17:27.686Z,2025-11-30,236053,03:56,12:13:31,12:17:27,spotify:track:2nMeu6UenVvwUktBCpLMK9,
+Still Loving You,Scorpions,27T030eWyCQRmDyuvr1kxY,"hard rock, glam metal, rock",2025-11-30T14:58:57.641Z,2025-11-30,403453,06:43,11:52:14,11:58:57,spotify:track:0RdUX4WE0fO30VnlUbDVL6,
 Born To Die,Lana Del Rey,00FQb4jTyendYWaN8pK0wa,,2025-11-30T14:51:44.670Z,2025-11-30,285400,04:45,11:46:59,11:51:44,spotify:track:4Ouhoi2lAhrLJKFzUqEzwl,
 Easy On Me,Adele,4dpARuHxo51G3z768sgnrY,soft pop,2025-11-30T14:46:58.548Z,2025-11-30,224694,03:44,11:43:14,11:46:58,spotify:track:46IZ0fSY2mpAiktS3KOqds,
 Mary On A Cross,Ghost,1Qp56T7n950O3EGMsSl81D,"metal, hard rock",2025-11-30T14:43:13.949Z,2025-11-30,244804,04:04,11:39:09,11:43:13,spotify:track:2wBnZdVWa5jVpvYRfGU7rP,
